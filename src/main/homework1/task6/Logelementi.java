@@ -1,7 +1,6 @@
 package main.homework1.task6;
 
 public class Logelementi {
-    boolean e,f,z;
 
     public static void main(String[] args)
     {
@@ -12,9 +11,6 @@ public class Logelementi {
     }
 
     boolean  logili(boolean a,boolean b,boolean c,boolean d) {
-        e=a&&b;
-        f=!(c||d);
-        z=e&&f;
-        return z;
+        return  (a&&b)&&(!(c||d));
     }
 }
