@@ -50,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Rectangle">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Logelementi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.homework1.task6.Logelementi" />
       <module name="AFT" />
@@ -105,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Rectangle" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Rectangle" />
         <item itemvalue="Application.Logelementi" />
         <item itemvalue="Application.Solution3" />
       </list>
