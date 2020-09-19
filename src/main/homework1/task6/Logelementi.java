@@ -11,6 +11,6 @@ public class Logelementi {
     }
 
     boolean  logili(boolean a,boolean b,boolean c,boolean d) {
-        return  (a&&b)&&(!(c||d));
+        return (a&&b)&&(!(c||d));
     }
 }
