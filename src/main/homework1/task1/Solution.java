@@ -6,6 +6,8 @@ public class Solution {
     {
         Solution instance=new Solution();
         System.out.println(instance.squareCalculation(0));
+        System.out.println(instance.squareCalculation(2));
+        System.out.println(instance.squareCalculation(100));
     }
 
         double squareCalculation(int radius) {
