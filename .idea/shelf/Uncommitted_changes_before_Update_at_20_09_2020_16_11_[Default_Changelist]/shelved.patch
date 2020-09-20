@@ -1,0 +1,706 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Default ignored files\r\n/.idea/\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision 03d634e8db78d2e58e5c98c2c831a4c7a0cdda29)
++++ .gitignore	(date 1600607463446)
+@@ -1,3 +1,9 @@
+ # Default ignored files
+-/.idea/
++*.class
++*.jar
++*.war
++*.ear
++hs_err_pid*
++*.iml
++
+ 
+Index: src/main/homework2/task8/WithBreaks.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task8/WithBreaks.java	(date 1600607423213)
++++ src/main/homework2/task8/WithBreaks.java	(date 1600607423213)
+@@ -0,0 +1,25 @@
++package main.homework2.task8;
++
++public class WithBreaks {
++        public static void main(String[] args) {
++            int number = 2;
++            switch (number) {
++                case 1:
++                    System.out.println("A");
++                    break;
++                case 2:
++                    System.out.println("AA");
++                    break;
++                case 3:
++                    System.out.println("AAA");
++                    break;
++                case 4:
++                    System.out.println("AAAA");
++                    break;
++                default:
++                    System.out.println("AAAAA");
++            }
++        }
++
++    }
++
+Index: src/main/homework2/task8/WithoutBreaks.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task8/WithoutBreaks.java	(date 1600607423243)
++++ src/main/homework2/task8/WithoutBreaks.java	(date 1600607423243)
+@@ -0,0 +1,21 @@
++package main.homework2.task8;
++
++public class WithoutBreaks {
++        public static void main(String[] args) {
++            int number = 2;
++            switch (number) {
++                default:
++                    System.out.print("A");
++                case 4:
++                    System.out.print("A");
++                case 3:
++                    System.out.print("A");
++                case 2:
++                    System.out.print("A");
++                case 1:
++                    System.out.print("A");
++            }
++        }
++
++    }
++
+Index: src/main/homework2/task2/Solution2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task2/Solution2.java	(date 1600607423252)
++++ src/main/homework2/task2/Solution2.java	(date 1600607423252)
+@@ -0,0 +1,41 @@
++package main.homework2.task2;
++
++public class Solution2 {
++
++    public static void main(String[] args) {
++        int[][] board = new int[8][8];
++
++        for (int i = 0; i < 8; i++) {
++            for (int j = 0; j < 8; j++)
++                if ((i + j) % 2 == 0) {
++                    board[i][j] = 0;
++                } else {
++                    board[i][j] = 1;
++                }
++        }
++        System.out.println("Вывод for");
++        for (int i = 0; i < 8; i++) {
++            for (int j = 0; j < 8; j++)
++                System.out.print(board[i][j]);
++            System.out.println();
++        }
++        System.out.println("Вывод  foreach");
++        for (int[] stroka : board) {
++            for (int vertikal : stroka)
++                System.out.print(vertikal);
++            System.out.println();
++        }
++
++        System.out.println("Вывод while");
++        int i = 0,j=0;
++        while (i < 8) {
++            while (j < 8) {
++                System.out.print(board[i][j++]);
++            }
++            System.out.println();
++            i++;
++            j = 0;
++        }
++    }}
++
++
+Index: src/main/homework2/task5/Transposition.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task5/Transposition.java	(date 1600607423256)
++++ src/main/homework2/task5/Transposition.java	(date 1600607423256)
+@@ -0,0 +1,38 @@
++package main.homework2.task5;
++
++import java.util.Random;
++
++public class Transposition {
++
++    public static void main(String[] args) {
++        final int m = new Random().nextInt(3) + 3;
++        final int n = new Random().nextInt(3) + 3;
++
++        int[][] matrix = new int[m][n];
++        for (int i = 0; i < m; i++) {
++            for (int j = 0; j < n; j++) {
++                matrix[i][j] = new Random().nextInt(9);
++            }
++        }
++
++        int[][] trmatrix = new int[n][m];
++        for (int i = 0; i < n; i++) {
++            for (int j = 0; j < m; j++) {
++                trmatrix[i][j] = matrix[j][i];
++            }
++        }
++
++        System.out.println("Начальная матрица");
++        for (int i = 0; i < m; i++) {
++            for (int j = 0; j < n; j++) {
++                System.out.print(matrix[i][j]);}
++            System.out.println();
++        }
++
++        System.out.println("После транспонирования");
++            for (int i = 0; i < n; i++) {
++                for (int j = 0; j < m; j++) {
++                    System.out.print(trmatrix[i][j]);}
++                System.out.println(); }
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5fa28638-1dfb-4c7f-9fcf-509f3c598fb9\" name=\"Default Changelist\" comment=\"optimizacija po tasku 6\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/AFT.iml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"C:\\Program Files\\JetBrains\\IntelliJ\\plugins\\maven\\lib\\maven3\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1hhKq4cC5Nfud7ONWkZChHxCQYB\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Solution\">\r\n    <configuration name=\"Logelementi\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"main.homework1.task6.Logelementi\" />\r\n      <module name=\"AFT\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"main.homework1.task6.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Rectangle\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"main.homework1.task2.Rectangle\" />\r\n      <module name=\"AFT\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"main.homework1.task2.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Solution\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"main.homework1.task1.Solution\" />\r\n      <module name=\"AFT\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"main.homework1.task1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Solution3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"main.homework1.task5.Solution3\" />\r\n      <module name=\"AFT\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"main.homework1.task5.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Solution\" />\r\n        <item itemvalue=\"Application.Rectangle\" />\r\n        <item itemvalue=\"Application.Logelementi\" />\r\n        <item itemvalue=\"Application.Solution3\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5fa28638-1dfb-4c7f-9fcf-509f3c598fb9\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1600458071231</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1600458071231</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"optimizacija po tasku 6\">\r\n      <created>1600520419797</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600520419797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"optimizacija po tasku 6\">\r\n      <created>1600520608886</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600520608886</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"optimizacija po tasku 6\">\r\n      <created>1600523604911</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600523604911</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"optimizacija po tasku 6\">\r\n      <created>1600524482734</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1600524482734</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"optimizacija po tasku 6\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"optimizacija po tasku 6\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1600524467863\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600524467863\" />\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.center\" timestamp=\"1600524467862\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600524467862\" />\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.left\" timestamp=\"1600524467862\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600524467862\" />\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.right\" timestamp=\"1600524467862\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"938\" height=\"282\" key=\"GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600524467862\" />\r\n    <state width=\"1877\" height=\"348\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1600512670377\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1877\" height=\"348\" key=\"GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600512670377\" />\r\n    <state width=\"1877\" height=\"348\" key=\"GridCell.Tab.1.center\" timestamp=\"1600512670376\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1877\" height=\"348\" key=\"GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600512670376\" />\r\n    <state width=\"1877\" height=\"348\" key=\"GridCell.Tab.1.left\" timestamp=\"1600512670376\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1877\" height=\"348\" key=\"GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600512670376\" />\r\n    <state width=\"1877\" height=\"348\" key=\"GridCell.Tab.1.right\" timestamp=\"1600512670377\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1877\" height=\"348\" key=\"GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600512670377\" />\r\n    <state x=\"552\" y=\"253\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1600524493051\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"552\" y=\"253\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1600524493051\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 03d634e8db78d2e58e5c98c2c831a4c7a0cdda29)
++++ .idea/workspace.xml	(date 1600607423228)
+@@ -1,37 +1,61 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="BranchesTreeState">
+-    <expand>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-    </expand>
++    <expand />
+     <select />
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="optimizacija po tasku 6">
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/AFT.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task1/Solution.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task2/Solution2.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task3/Solution3.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task4/Check.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task5/Transposition.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task6/InverseAfter2.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task7/Age.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task8/WithBreaks.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/homework2/task8/WithoutBreaks.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="ChangesViewManager" show_ignored="true">
++    <option name="groupingKeys">
++      <option value="directory" />
++    </option>
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
+   <component name="Git.Settings">
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="homework2" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
++  </component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="hiddenUrls">
++      <set>
++        <option value="https://github.com/EvgenyTen/AFT2" />
++      </set>
++    </option>
+   </component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+@@ -41,6 +65,9 @@
+     </option>
+   </component>
+   <component name="ProjectId" id="1hhKq4cC5Nfud7ONWkZChHxCQYB" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -50,13 +77,13 @@
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="RunManager" selected="Application.Solution">
+-    <configuration name="Logelementi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="main.homework1.task6.Logelementi" />
++  <component name="RunManager" selected="Application.InverseAfter2">
++    <configuration name="Check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="main.homework2.task4.Check" />
+       <module name="AFT" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="main.homework1.task6.*" />
++          <option name="PATTERN" value="main.homework2.task4.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -64,12 +91,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="main.homework1.task2.Rectangle" />
++    <configuration name="InverseAfter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="main.homework2.task6.InverseAfter2" />
+       <module name="AFT" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="main.homework1.task2.*" />
++          <option name="PATTERN" value="main.homework2.task6.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -77,12 +104,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="main.homework1.task1.Solution" />
++    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="main.homework2.task3.Solution3" />
+       <module name="AFT" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="main.homework1.task1.*" />
++          <option name="PATTERN" value="main.homework2.task3.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -90,12 +117,25 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="main.homework1.task5.Solution3" />
++    <configuration name="Transposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="main.homework2.task5.Transposition" />
++      <module name="AFT" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="main.homework2.task5.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="WithBreaks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="main.homework2.task8.WithBreaks" />
+       <module name="AFT" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="main.homework1.task5.*" />
++          <option name="PATTERN" value="main.homework2.task8.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -105,10 +145,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Solution" />
+-        <item itemvalue="Application.Rectangle" />
+-        <item itemvalue="Application.Logelementi" />
++        <item itemvalue="Application.WithBreaks" />
++        <item itemvalue="Application.Transposition" />
+         <item itemvalue="Application.Solution3" />
++        <item itemvalue="Application.InverseAfter2" />
++        <item itemvalue="Application.Check" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -155,6 +196,31 @@
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
++        <entry key="1">
++          <value>
++            <State>
++              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="HEAD" />
++                      </list>
++                    </value>
++                  </entry>
++                  <entry key="structure">
++                    <value>
++                      <list>
++                        <option value="dir:D:/AFT/src/main/homework2" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
+         <entry key="MAIN">
+           <value>
+             <State />
+@@ -162,47 +228,68 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="optimizacija po tasku 6" />
+     <option name="LAST_COMMIT_MESSAGE" value="optimizacija po tasku 6" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1600524467863">
++    <state x="712" y="344" key="#Notifications" timestamp="1600605854442">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="712" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600605854442" />
++    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1600606970388">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600606970388" />
++    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1600606970388">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600606970388" />
++    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1600606970388">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600606970388" />
++    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1600606970388">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600524467863" />
+-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1600524467862">
++    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600606970388" />
++    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600588212942">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600524467862" />
+-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1600524467862">
++    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600588212942" />
++    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600588212942">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600524467862" />
+-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1600524467862">
++    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600588212942" />
++    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600588212941">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600524467862" />
+-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600512670377">
++    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600588212941" />
++    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600588212942">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600512670377" />
+-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600512670376">
++    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600588212942" />
++    <state x="806" y="240" key="RollbackChangesDialog" timestamp="1600606106516">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600512670376" />
+-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600512670376">
++    <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
++    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600607137442">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600512670376" />
+-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600512670377">
++    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600607137442" />
++    <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600512670377" />
+-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600524493051">
++    <state x="684" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600605256534" />
++    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600607054954">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600524493051" />
++    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600607054954" />
++    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600593409048">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600593409048" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/homework2/task3/Solution3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task3/Solution3.java	(date 1600607423261)
++++ src/main/homework2/task3/Solution3.java	(date 1600607423261)
+@@ -0,0 +1,37 @@
++package main.homework2.task3;
++
++public class Solution3 {
++    public static void main(String[] args) {
++        String number = "+7(956)632-10-64";
++        Solution3 inst = new Solution3();
++
++        boolean trueFalse = inst.byCycles(number);
++        System.out.println(trueFalse);
++        boolean match= inst.matcher(number);
++        System.out.println(match);
++    }
++
++    boolean matcher(String number) {
++        return number.matches("^\\+7\\(\\d{3}\\)\\d{3}-\\d{2}-\\d{2}$");
++    }
++    boolean byCycles(String number) {
++        if (number == null || number.length() != 16)
++            return false;
++
++        int[] numIndexes = {3, 4, 5, 7, 8, 9, 11, 12, 14, 15};
++        String numericPattern = "0123456789";
++
++        if (!number.startsWith("+7("))
++            return false;
++        if (number.charAt(6) != ')')
++            return false;
++        if (number.charAt(10) != '-' || number.charAt(13) != '-')
++            return false;
++        for (int index : numIndexes) {
++            String symbol = String.valueOf(number.charAt(index));
++            if (!numericPattern.contains(symbol))
++                return false;
++        }
++        return true;
++    }
++}
+\ No newline at end of file
+Index: src/main/homework2/task1/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task1/Solution.java	(date 1600607423265)
++++ src/main/homework2/task1/Solution.java	(date 1600607423265)
+@@ -0,0 +1,39 @@
++package main.homework2.task1;
++
++public class Solution {
++
++
++    public static void main(String[] args) {
++        String[] massive = {"Пятница", "это", "лучший", "день", "недели" };
++        Solution instance=new Solution();
++        instance.printfor(massive);
++        instance.printeach(massive);
++        instance.printwhile(massive);
++    }
++    void  printfor(String[] massive) {
++        String longString = "";
++        for (int i = 0; i < massive.length; i++) {
++            longString += massive[i] + " ";
++        }
++        String longplusString = longString.trim() + ".";
++        System.out.println(longplusString);
++    }
++    void  printeach(String[] massive)
++    {
++        String longString="";
++        for(String current:massive) { longString+=current+" "; }
++        String longplusString=longString.trim()+".";
++        System.out.println(longplusString);
++    }
++
++    void  printwhile(String[] massive)
++    {   int counter=0;
++        String longString="";
++        while(counter< massive.length) { longString+=massive[counter++]+" "; }
++        String longplusString=longString.trim()+".";
++        System.out.println(longplusString);
++    }
++
++}
++
++
+Index: src/main/homework2/task4/Check.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task4/Check.java	(date 1600607423197)
++++ src/main/homework2/task4/Check.java	(date 1600607423197)
+@@ -0,0 +1,22 @@
++package main.homework2.task4;
++import java.util.Arrays;
++
++    public class Check {
++
++        public static void main(String[] args) {
++            String first = "hello";
++            String second = "world";
++            char[] firstAsChars = first.toCharArray();
++            Arrays.sort(firstAsChars);
++            char[] secondAsChars = second.toCharArray();
++            Arrays.sort(secondAsChars);
++            String result = "";
++            for (char ch : firstAsChars) {
++                String symbol = String.valueOf(ch);
++                if (result.contains(symbol)) continue;  // Переходим к следующему символу, если он уже есть в итоговой строке
++                if (second.contains(symbol)) result += symbol;
++            }
++            System.out.println(result);
++        }
++    }
++
+Index: src/main/homework2/task7/Age.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task7/Age.java	(date 1600607423203)
++++ src/main/homework2/task7/Age.java	(date 1600607423203)
+@@ -0,0 +1,31 @@
++package main.homework2.task7;
++
++public class Age {
++        public static void main(String[] args) {
++         Age inst = new Age();
++            System.out.println(inst.getAgeDescription(32));
++            System.out.println(inst.getAgeDescription(52));
++            System.out.println(inst.getAgeDescription(66));
++            System.out.println(inst.getAgeDescription(82));
++            System.out.println(inst.getAgeDescription(25));
++            System.out.println(inst.getAgeDescription(44));
++            System.out.println(inst.getAgeDescription(60));
++            System.out.println(inst.getAgeDescription(75));
++            System.out.println(inst.getAgeDescription(22));
++            System.out.println(inst.getAgeDescription(119));
++        }
++
++        String getAgeDescription(int years) {
++            String age = "";
++            if (years >= 25 && years < 44)
++                age = "молодой";
++            else if (years >= 44 && years < 60)
++                age= "средний";
++            else if (years >= 60 && years< 75)
++                age = "пожилой";
++            else if (years >= 75 && years < 90)
++                age = "старческий";
++            else age= "неизвестный";
++            return age + " возраст";
++        }
++}
+Index: src/main/homework2/task6/InverseAfter2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/homework2/task6/InverseAfter2.java	(date 1600607423208)
++++ src/main/homework2/task6/InverseAfter2.java	(date 1600607423208)
+@@ -0,0 +1,45 @@
++package main.homework2.task6;
++import java.util.Random;
++
++public class InverseAfter2 {
++    public static void main(String[] args) {
++        int m = new Random().nextInt(9) + 3;
++        int n = new Random().nextInt(9) + 3;
++        int[][] sourceMatrix = new int[m][n];
++        for (int i = 0; i < m; i++) {
++            for (int j = 0; j < n; j++) {
++                sourceMatrix[i][j] = new Random().nextInt(2);
++            }
++        }
++        int x = 1 + new Random().nextInt(m - 2);
++        int y = 1 + new Random().nextInt(n - 2);
++        sourceMatrix[x][y] = 2;
++        int inverse = 0;
++        int[][] destMatrix = new int[m][n];
++        for (int i = 0; i < m; i++) {
++            for (int j = 0; j < n; j++) {
++                if (sourceMatrix[i][j] == 2) {
++                    destMatrix[i][j] = 2;
++                    inverse = 1;
++                    continue;
++                }
++                destMatrix[i][j] = (sourceMatrix[i][j] + inverse) % 2;
++            }
++        }
++
++        System.out.println("Исходная матрица");
++        for (int[] row : sourceMatrix) {
++            for (int element : row)
++                System.out.print(element);
++            System.out.println();
++        }
++
++        System.out.println("Полученная матрица");
++        for (int[] row : destMatrix) {
++            for (int element : row)
++                System.out.print(element);
++            System.out.println();
++        }
++    }
++
++}
