@@ -1,3 +1,8 @@
-# Default ignored files
-/.idea/
 
+/.idea/
+/out/
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/shelf/
