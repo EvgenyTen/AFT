@@ -8,7 +8,7 @@ public class Solution3 {
         b=false;
         Solution3 instance=new Solution3();
         System.out.println(instance.logili(a,b));
-        System.out.println(instance.logili(a,b));
+        System.out.println(instance.logi(a,b));
     }
 
     boolean  logili(boolean a,boolean b) {
