@@ -1,4 +1,5 @@
 package main.homework2.task6;
+
 import java.util.Random;
 
 public class InverseAfter2 {
@@ -27,14 +28,14 @@ public class InverseAfter2 {
             }
         }
 
-        System.out.println("Исходная матрица");
+        System.out.println("Начальная матрица");
         for (int[] row : sourceMatrix) {
             for (int element : row)
                 System.out.print(element);
             System.out.println();
         }
 
-        System.out.println("Полученная матрица");
+        System.out.println("Изменённая матрица");
         for (int[] row : destMatrix) {
             for (int element : row)
                 System.out.print(element);

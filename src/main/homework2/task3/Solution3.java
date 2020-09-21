@@ -7,13 +7,14 @@ public class Solution3 {
 
         boolean trueFalse = inst.byCycles(number);
         System.out.println(trueFalse);
-        boolean match= inst.matcher(number);
+        boolean match = inst.matcher(number);
         System.out.println(match);
     }
 
     boolean matcher(String number) {
         return number.matches("^\\+7\\(\\d{3}\\)\\d{3}-\\d{2}-\\d{2}$");
     }
+
     boolean byCycles(String number) {
         if (number == null || number.length() != 16)
             return false;

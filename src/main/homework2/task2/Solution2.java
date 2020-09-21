@@ -27,7 +27,7 @@ public class Solution2 {
         }
 
         System.out.println("Вывод while");
-        int i = 0,j=0;
+        int i = 0, j = 0;
         while (i < 8) {
             while (j < 8) {
                 System.out.print(board[i][j++]);
@@ -36,6 +36,7 @@ public class Solution2 {
             i++;
             j = 0;
         }
-    }}
+    }
+}
 
 
