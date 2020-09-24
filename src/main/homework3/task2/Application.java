@@ -12,7 +12,7 @@ public class Application {
             int catAge = array[i].age;
             int catWeight = array[i].weight;
             String catName = array[i].name;
-            System.out.println("Имя: " + catName + "," + "Возраст: " + catAge + "," + "Вес: " + catWeight);
+            System.out.println("Имя: " + catName + "," + " Возраст: " + catAge + "," + " Вес: " + catWeight);
         }
     }
 }
