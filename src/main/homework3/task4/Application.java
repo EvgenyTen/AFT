@@ -2,14 +2,32 @@ package main.homework3.task4;
 
 public class Application {
     public static void main(String[]  args){
-     Human sergey=new Human{"Sergey","Valeriy","Grigoriy"};
-     Human veleriy=new Human{"Valeriy","Sergey","Stanislav"};
-     Human Stanislav=new Human{"Stanislav","Valeriy","Mihail"};
-     Human mihail=new Human{"Mihail","Stanislav","Aleksandr"};
-     Human aleksandr=new Human{"Aleksandr","Mihail","Egorom","Grigoriy"};
-     Human egor=new Human{"Egor","Aleksandr","Grigoriy"};
-     Human grigoriy=new Human{"Grigoriy","Aleksandr","Egor","Sergey"};
+     Human sergey=new Human("Sergey");
+     Human valeriy=new Human("Valeriy");
+     Human stanislav=new Human("Stanislav");
+     Human mihail=new Human("Mihail");
+     Human aleksandr=new Human("Aleksandr");
+     Human egor=new Human("Egor");
+     Human grigoriy=new Human("Grigoriy");
 
 
+        sergey.addFriend(valeriy);
+        sergey.addFriend(grigoriy);
+        valeriy.addFriend(stanislav);
+        stanislav.addFriend(mihail);
+        mihail.addFriend(aleksandr);
+        aleksandr.addFriend(grigoriy);
+        aleksandr.addFriend(mihail);
+        egor.addFriend(grigoriy);
+
+        static boolean areFriends(Human first,Human second) {
+            for (Human firstFriend : first.friends)
+                if (firstFriend == second) return true;
+            return false;
+        }
+        System.out.println(areFriends(sergey, grigoriy));
+        System.out.println(areFriends(sergey, aleksandr));
+        System.out.println(areFriends(stanislav, mihail));
+        System.out.println(areFriends(mihail, valeriy));
     }
 }
