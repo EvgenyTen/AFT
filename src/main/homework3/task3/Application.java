@@ -15,8 +15,8 @@ public class Application {
         String[] arrayOfFathers = new String[4];
         String[] arrayOfParents = new String[arrayOfMothers.length + arrayOfFathers.length];
         int count = 0;
-        for (int i = 0; i < array.length; i++) {    //massiv materej
-            arrayOfMothers[i] = array[i].mother;
+        for (int i = 0; i < array.length; i++) {//massiv materej
+            {arrayOfMothers[i] = array[i].mother;}
         }
         for (int j = 0; j < array.length; j++) {////massiv otcov
             arrayOfFathers[j] = array[j].father;
@@ -34,18 +34,17 @@ public class Application {
         for (int z = 0; z < arrayOfParents.length; z++)
             System.out.println(arrayOfParents[z]);
 
-
+        System.out.println("=========");
         System.out.println("Бабушки и дедушки: ");
         for (int w=0;w<arrayOfParents.length;w++)
         {for (int y=0;y<array.length;y++){
 
-        if(arrayOfParents[w]=array[y].name)
-        {System.out.println(array[y].mother+array[y].father);}
-        else return;
+        if(arrayOfParents[w]==array[y].name)
+        {
+        {System.out.println( "Бабушка : "+array[y].mother+"  Дедушка: "+array[y].father);}
         }
-
     }
-}}
+}}}
 
 
 
