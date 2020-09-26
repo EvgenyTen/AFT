@@ -2,6 +2,8 @@ package main.homework3.task3;
 
 import main.homework3.task2.Cat;
 
+import static java.lang.String.valueOf;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -32,8 +34,18 @@ public class Application {
         for (int z = 0; z < arrayOfParents.length; z++)
             System.out.println(arrayOfParents[z]);
 
+
+        System.out.println("Бабушки и дедушки: ");
+        for (int w=0;w<arrayOfParents.length;w++)
+        {for (int y=0;y<array.length;y++){
+
+        if(arrayOfParents[w]=array[y].name)
+        {System.out.println(array[y].mother+array[y].father);}
+        else return;
+        }
+
     }
-}
+}}
 
 
 
