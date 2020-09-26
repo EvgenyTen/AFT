@@ -8,7 +8,7 @@ public class Application {
         Human[] array = {new Human("Vitaliy", 5, "Sergey", "Marina"),
                 new Human("Elena", 11, "Sergey", "Marina"),
                 new Human("Sergey", 31, "Valeriy", "Aleksandra"),
-                new Human("Marina", 30, "Ivan", "ddd")};
+                new Human("Marina", 30, "Ivan", "null")};
         String[] arrayOfMothers = new String[4];
         String[] arrayOfFathers = new String[4];
         String[] arrayOfParents = new String[arrayOfMothers.length + arrayOfFathers.length];
