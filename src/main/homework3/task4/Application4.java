@@ -10,15 +10,14 @@ public class Application4 {
      Human egor=new Human("Egor");
      Human grigoriy=new Human("Grigoriy");
 
-
-        sergey.addFriend(valeriy);
-        sergey.addFriend(grigoriy);
-        valeriy.addFriend(stanislav);
-        stanislav.addFriend(mihail);
-        mihail.addFriend(aleksandr);
-        aleksandr.addFriend(grigoriy);
-        aleksandr.addFriend(mihail);
-        egor.addFriend(grigoriy);
+     sergey.addFriend(valeriy);
+     sergey.addFriend(grigoriy);
+     valeriy.addFriend(stanislav);
+     stanislav.addFriend(mihail);
+     mihail.addFriend(aleksandr);
+     aleksandr.addFriend(grigoriy);
+     aleksandr.addFriend(mihail);
+     egor.addFriend(grigoriy);
 
        // static boolean areFriends(Human first,Human second) {
         //    for (Human firstFriend : first.friends)
