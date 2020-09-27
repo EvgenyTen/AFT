@@ -1,6 +1,6 @@
 package main.homework3.task2;
 
-public class Application {
+public class Application2 {
     public static void main(String[] args) {
         Cat[] array = {new Cat(2, 5, "Барсик"),
                 new Cat(3, 11, "Мурзик"),

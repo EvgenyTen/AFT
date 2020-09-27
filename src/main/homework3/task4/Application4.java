@@ -1,6 +1,6 @@
 package main.homework3.task4;
 
-public class Application {
+public class Application4 {
     public static void main(String[]  args){
      Human sergey=new Human("Sergey");
      Human valeriy=new Human("Valeriy");
@@ -20,14 +20,14 @@ public class Application {
         aleksandr.addFriend(mihail);
         egor.addFriend(grigoriy);
 
-        static boolean areFriends(Human first,Human second) {
-            for (Human firstFriend : first.friends)
-                if (firstFriend == second) return true;
-            return false;
-        }
-        System.out.println(areFriends(sergey, grigoriy));
-        System.out.println(areFriends(sergey, aleksandr));
-        System.out.println(areFriends(stanislav, mihail));
-        System.out.println(areFriends(mihail, valeriy));
+       // static boolean areFriends(Human first,Human second) {
+        //    for (Human firstFriend : first.friends)
+       //         if (firstFriend == second) return true;
+      //      return false;
+       // }
+       // System.out.println(areFriends(sergey, grigoriy));
+      //  System.out.println(areFriends(sergey, aleksandr));
+      //  System.out.println(areFriends(stanislav, mihail));
+      //  System.out.println(areFriends(mihail, valeriy));
     }
 }
