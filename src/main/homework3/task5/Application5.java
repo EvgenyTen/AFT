@@ -11,7 +11,7 @@ public class Application5{
         for (Human human : humans) {
             for (Human otherHuman : humans) {
                 if (human != otherHuman && human.cats.length == otherHuman.cats.length && human.dogs.length == otherHuman.dogs.length)
-                    System.out.printf("%s: %d кошек, %d собак%n", human.name, human.cats.length, human.dogs.length);
+                    System.out.println("У  "+human.name+"  "+ human.cats.length+ "  кошек  "+human.dogs.length+ " собак    ");
             }
         }
     }
