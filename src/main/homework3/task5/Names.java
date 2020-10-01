@@ -16,6 +16,6 @@ public class Names {
     }
 
     static String dogName() {
-        return catNames[new Random().nextInt(catNames.length)];
+        return dogNames[new Random().nextInt(dogNames.length)];
     }
 }
