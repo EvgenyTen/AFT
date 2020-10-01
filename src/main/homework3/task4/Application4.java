@@ -22,7 +22,8 @@ public class Application4 {
         System.out.println(areFriends(sergey, grigoriy));
         System.out.println(areFriends(sergey, aleksandr));
         System.out.println(areFriends(stanislav, mihail));
-        System.out.println(areFriends(mihail, valeriy));}
+        System.out.println(areFriends(mihail, valeriy));
+    }
 
     static boolean areFriends(Human first, Human second) {
         for (Human firstFriend : first.friends)

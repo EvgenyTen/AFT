@@ -19,11 +19,12 @@ public class Application3 {
             printInfo(elena.mother.mother);
         }
     }
-        static void printInfo(Human human){
-        if(human!=null)
-            System.out.println("Имя :"+human.name+" Возраст :  "+human.age);
-        }
-        }
+
+    static void printInfo(Human human) {
+        if (human != null)
+            System.out.println("Имя :" + human.name + " Возраст :  " + human.age);
+    }
+}
 
 
 

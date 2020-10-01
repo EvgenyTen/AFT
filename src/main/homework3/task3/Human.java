@@ -5,8 +5,9 @@ public class Human {
     int age;
     Human father;
     Human mother;
+
     public Human(String name, int age, Human father, Human mother) {
-        this.name=name;
+        this.name = name;
         this.age = age;
         this.father = father;
         this.mother = mother;
