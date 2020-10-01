@@ -16,8 +16,8 @@ public class Application {
         String tomorrow = sdf.format(new Date(new Date().getTime() + 86_400_000L));
         human.setBirthDate(sdf.parse(tomorrow));
 
-        String lastName = human.getSurname();
-        String firstName = human.getName();
+        String name = human.getName();
+        String surName = human.getSurname();
         Date birthDate = human.getBirthDate();
 
 
