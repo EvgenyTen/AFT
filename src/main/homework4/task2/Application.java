@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.text.ParseException;
 
 public class Application {
-    private static SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
+    private static final SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
 
     public static void main(String[] args) throws ParseException, IOException {
 
