@@ -5,7 +5,7 @@ public class ServiceDesk {
 
     public static void createTicket(String description) {
         System.out.printf("Заявка %d была создана: %s%n", ++ticketNumber, description);
-        if (description.matches("^(.*)((справка)|(отчет)|(бюджет))(.*)$")) {
+        if (description.matches("^.*((справка)|(отчет)|(бюджет)).*$")) {
             Accountant.takeTicket(ticketNumber);
             return;
         } else if (description.matches("^.*((доставка)|(курьер)).*$")) {

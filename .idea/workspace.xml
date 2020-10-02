@@ -25,14 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 4 after 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework4/task3/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task3/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework4/task3/workers/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task3/workers/Accountant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework4/task3/workers/Cleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task3/workers/Cleaner.java" afterDir="false" />
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 4 after task  3">
       <change beforePath="$PROJECT_DIR$/src/main/homework4/task3/workers/Logistician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task3/workers/Logistician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework4/task3/workers/ServiceDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task3/workers/ServiceDesk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework4/task3/workers/SysAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task3/workers/SysAdmin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -394,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601660935987</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="homework 4 after task  3">
+      <created>1601663152022</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601663152022</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,7 +461,8 @@
     <MESSAGE value="homework 4" />
     <MESSAGE value="homework 4 after 1" />
     <MESSAGE value="homework 4 after 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 4 after 2" />
+    <MESSAGE value="homework 4 after task  3" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 4 after task  3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="344" key="#Notifications" timestamp="1600605854442">
@@ -471,22 +473,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601108447428" />
-    <state width="703" height="286" key="GridCell.Tab.0.bottom" timestamp="1601661777505">
+    <state width="703" height="286" key="GridCell.Tab.0.bottom" timestamp="1601663079985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="703" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601661777505" />
-    <state width="703" height="286" key="GridCell.Tab.0.center" timestamp="1601661777505">
+    <state width="703" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601663079985" />
+    <state width="703" height="286" key="GridCell.Tab.0.center" timestamp="1601663079985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="703" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601661777505" />
-    <state width="703" height="286" key="GridCell.Tab.0.left" timestamp="1601661777505">
+    <state width="703" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601663079985" />
+    <state width="703" height="286" key="GridCell.Tab.0.left" timestamp="1601663079985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="703" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601661777505" />
-    <state width="703" height="286" key="GridCell.Tab.0.right" timestamp="1601661777505">
+    <state width="703" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601663079985" />
+    <state width="703" height="286" key="GridCell.Tab.0.right" timestamp="1601663079985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="703" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601661777505" />
+    <state width="703" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601663079985" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600607677137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -507,10 +509,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601614147277">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601663179494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601614147277" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601663179494" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
