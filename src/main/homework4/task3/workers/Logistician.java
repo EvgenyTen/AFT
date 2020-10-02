@@ -1,4 +1,8 @@
 package main.homework4.task3.workers;
 
-public class Logistician {
+
+class Logistician {
+    static void takeTicket(int ticketNumber) {
+        System.out.println("Заявка № " + ticketNumber + "  была принята логистом");
+    }
 }

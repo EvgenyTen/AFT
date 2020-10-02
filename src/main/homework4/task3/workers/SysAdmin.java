@@ -1,4 +1,7 @@
 package main.homework4.task3.workers;
 
-public class SysAdmin {
+class SysAdmin {
+    static void takeTicket(int ticketNumber) {
+        System.out.println("Заявка № " + ticketNumber + "  была принята администратором");
+    }
 }
