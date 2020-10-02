@@ -6,6 +6,7 @@ import java.util.Date;
 
 public class Application {
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
+
     public static void main(String[] args) throws ParseException {
         Human human = new Human();
         human.setName("Иван");
@@ -21,5 +22,5 @@ public class Application {
         Date birthDate = human.getBirthDate();
 
 
-            }
-        }
+    }
+}

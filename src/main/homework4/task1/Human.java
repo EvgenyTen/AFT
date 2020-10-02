@@ -7,20 +7,21 @@ public class Human {
     private String name, surname;
     private Date birthDate;
 
-    private  String SURNAME = "фамилии";
-    private  String NAME = "имени";
-    private  String BIRTHDATE = "даты рождения";
-    private  String CYRILLIC_FORMAT= "^[А-Я][а-я]{2,}$";
-    private  SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd.MM.yyyy");
+    private String SURNAME = "фамилии";
+    private String NAME = "имени";
+    private String BIRTHDATE = "даты рождения";
+    private String CYRILLIC_FORMAT = "^[А-Я][а-я]{2,}$";
+    private SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd.MM.yyyy");
 
     public Human() {
-       this.name=name;
-       this.surname=surname;
+        this.name = name;
+        this.surname = surname;
     }
+
     public void setName(String name) {
         if (name.matches(CYRILLIC_FORMAT)) {
             this.name = name;
-            setCorrectPrint(NAME,name);
+            setCorrectPrint(NAME, name);
         } else {
             setIncorrectPrint(name);
         }
@@ -28,7 +29,7 @@ public class Human {
 
     public void setSurname(String surname) {
         if (surname.matches(CYRILLIC_FORMAT)) {
-        this.surname = surname;
+            this.surname = surname;
             setCorrectPrint(SURNAME, surname);
         } else {
             setIncorrectPrint(surname);
@@ -36,12 +37,12 @@ public class Human {
     }
 
     public String getName() {
-        getPrint(NAME,name);
+        getPrint(NAME, name);
         return name;
     }
 
     public String getSurname() {
-        getPrint(SURNAME,surname);
+        getPrint(SURNAME, surname);
         return surname;
     }
 
@@ -59,12 +60,14 @@ public class Human {
         String date = birthDate != null
                 ? DATE_FORMAT.format(birthDate)
                 : null;
-        getPrint(BIRTHDATE,date);
+        getPrint(BIRTHDATE, date);
         return birthDate;
     }
+
     private void getPrint(String type, String value) {
         System.out.printf("Получено значение %s: %s%n", type, value);
     }
+
     private void setCorrectPrint(String type, String value) {
         System.out.printf("Установлено корректное значение %s: %s%n", type, value);
     }

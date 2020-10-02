@@ -26,10 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 4 after 1">
-      <change afterPath="$PROJECT_DIR$/src/main/homework4/task2/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/homework4/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework4/task1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task1/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/homework4/task2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task2/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework4/task2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task2/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/homework4/task2/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework4/task2/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +97,7 @@
       <recent name="main.homework3.task3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application (1)">
+  <component name="RunManager" selected="Application.Application (2)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.homework4.task1.Application" />
       <module name="AFT" />
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework3.task1.Application" />
+    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.homework4.task2.Application" />
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.homework3.task1.*" />
+          <option name="PATTERN" value="main.homework4.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application5" />
         <item itemvalue="Application.Application3" />
         <item itemvalue="Application.Application2" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601575101479</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="homework 4 after 1">
+      <created>1601577069094</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601577069094</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,22 +454,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601108447428" />
-    <state width="935" height="286" key="GridCell.Tab.0.bottom" timestamp="1601575639990">
+    <state width="935" height="286" key="GridCell.Tab.0.bottom" timestamp="1601581812109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601575639990" />
-    <state width="935" height="286" key="GridCell.Tab.0.center" timestamp="1601575639990">
+    <state width="935" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601581812109" />
+    <state width="935" height="286" key="GridCell.Tab.0.center" timestamp="1601581812109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601575639990" />
-    <state width="935" height="286" key="GridCell.Tab.0.left" timestamp="1601575639990">
+    <state width="935" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601581812109" />
+    <state width="935" height="286" key="GridCell.Tab.0.left" timestamp="1601581812109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601575639990" />
-    <state width="935" height="286" key="GridCell.Tab.0.right" timestamp="1601575639990">
+    <state width="935" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601581812109" />
+    <state width="935" height="286" key="GridCell.Tab.0.right" timestamp="1601581812109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601575639990" />
+    <state width="935" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601581812109" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600607677137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -482,10 +490,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601551203455">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601614075587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601551203455" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601614075587" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
