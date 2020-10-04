@@ -12,7 +12,7 @@ public class Application {
                 System.out.println("Name : " + cats[i].name + ", Age: " + cats[i].age);
             } catch (AgeTooHighException exception) {
                 cats[i] = null;
-                System.out.println("Too old");
+                System.out.println("Слишком большой возраст для кота");
             } finally {
                 i++;
             }
@@ -22,7 +22,7 @@ public class Application {
             try {
 
             } catch (NullPointerException npe) {
-                System.out.println("Error");
+                System.out.println("Ошибка вывода данных");
             }
         }
     }
