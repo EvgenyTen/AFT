@@ -1,10 +1,10 @@
 package main.homework5.task5;
 
+import java.util.Scanner;
+
 public class Application {
     public static void main(String[] args) {
         createPassport("1234", "567890");
-        createPassport("", "");
-        createPassport("12-34", "567890");
         createPassport("12-34", "567890");
         createPassport(null, "123456");
         createPassport("12-34", null);
@@ -14,8 +14,7 @@ public class Application {
     private static Passport createPassport(String series, String number) {
         try {
             return new Passport(series, number);
-        } catch (PassportSeriesArgumentException | PassportNumberArgumentException |
-                PassportSeriesNullPointerException | PassportNumberNullPointerException exception) {
+        } catch (PassportSeriesArgumentException | PassportNumberArgumentException | PassportSeriesNullPointerException | PassportNumberNullPointerException exception) {
             System.out.println("Введите верные значения серии и номера паспорта");
             return null;
         } catch (PassportAlreadyExistsException exception) {
@@ -23,5 +22,5 @@ public class Application {
             return null;
         }
     }
-    }
+}
 

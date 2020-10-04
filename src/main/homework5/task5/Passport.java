@@ -4,6 +4,7 @@ public class Passport {
     private static final Passport[] PASSPORTS = new Passport[50];
     private String series;
     private String number;
+
     public Passport(String series, String number) throws PassportIllegalArgumentException, PassportNullPointerException, PassportAlreadyExistsException {
         this.series = series;
         this.number = number;
@@ -13,13 +14,11 @@ public class Passport {
             throw new PassportSeriesArgumentException();
         if (!number.matches("^(\\d{6})$"))
             throw new PassportNumberArgumentException();
-        for (int i;i< PASSPORTS.length;i++) {
+        for (int i = 0; i < PASSPORTS.length; i++) {
             if (PASSPORTS[i] == null) break;
             if (PASSPORTS[i].series.equals(series) && PASSPORTS[i].number.equals(number))
                 throw new PassportAlreadyExistsException();
         }
-
-       // PASSPORTS[i++] = this;
-        System.out.println("Паспорт с серией № "+series+" и номером № "+number+ " успешно создан");
+        System.out.println("Паспорт с серией № " + series + " и номером № " + number + " успешно создан");
     }
 }
