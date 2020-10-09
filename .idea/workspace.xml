@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 task 1 begin" />
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 task 1 begin">
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/NameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/NameGenerator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00002" summary="optimizacija po tasku 6">
-      <created>1600520608886</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1600520608886</updated>
     </task>
     <task id="LOCAL-00003" summary="optimizacija po tasku 6">
       <created>1600523604911</created>
@@ -518,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602266597361</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="homework 6 task 1 begin">
+      <created>1602266621989</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1602266621989</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,22 +605,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601737805953" />
-    <state width="931" height="287" key="GridCell.Tab.0.bottom" timestamp="1602266501154">
+    <state width="931" height="287" key="GridCell.Tab.0.bottom" timestamp="1602266601558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602266501154" />
-    <state width="931" height="287" key="GridCell.Tab.0.center" timestamp="1602266501154">
+    <state width="931" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602266601558" />
+    <state width="931" height="287" key="GridCell.Tab.0.center" timestamp="1602266601557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602266501154" />
-    <state width="931" height="287" key="GridCell.Tab.0.left" timestamp="1602266501153">
+    <state width="931" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602266601557" />
+    <state width="931" height="287" key="GridCell.Tab.0.left" timestamp="1602266601557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602266501153" />
-    <state width="931" height="287" key="GridCell.Tab.0.right" timestamp="1602266501154">
+    <state width="931" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602266601557" />
+    <state width="931" height="287" key="GridCell.Tab.0.right" timestamp="1602266601558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602266501154" />
+    <state width="931" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602266601558" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600607677137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -655,9 +657,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601111086574" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600593409048">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602266662116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600593409048" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602266662116" />
   </component>
 </project>

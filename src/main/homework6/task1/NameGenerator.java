@@ -11,6 +11,11 @@ public class NameGenerator {
         char[] name=new char[nameSize];
         //*генерация первого большого символа*//
         name[0]=bigLetters[new Random().nextInt(32)];
+        //* маленькие *//
+        for (int i=1;i<nameSize;i++)
+        {
+            name[i]=smallLetters[new Random().nextInt(32)];
+        }
 
         return name[0];
     }
