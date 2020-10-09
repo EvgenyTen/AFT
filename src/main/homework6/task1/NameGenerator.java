@@ -8,6 +8,10 @@ public class NameGenerator {
         char[] bigLetters={'А', 'Б','В', 'Г', 'Д','Е', 'Ё', 'Ж','З','И','Й','К','Л','М','Н','О','П','Р','С','Т','У','Ф','Х', 'Ц', 'Ч','Ш', 'Щ','Ъ', 'Ы', 'Ь', 'Э','Ю','Я'};
         int nameSize=new Random().nextInt(12)+5;
         char[] name=new char[nameSize];
-        return namSize;
+        int bigLetterNumber=new Random().nextInt(32);
+        name[0]=bigLetters[bigLetterNumber];
+       // for (int i=1;i<nameSize;i++){
+      //  }
+        return name[0];
     }
 }
