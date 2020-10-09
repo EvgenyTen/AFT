@@ -9,7 +9,7 @@ public class NameGenerator {
         //* генерация размера имени*//
         int nameSize=new Random().nextInt(12)+5;
         char[] name=new char[nameSize];
-        //*генерация первого символа*//
+        //*генерация первого большого символа*//
         name[0]=bigLetters[new Random().nextInt(32)];
 
         return name[0];
