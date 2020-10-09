@@ -26,7 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 task 1 begin">
-      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/NameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/NameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/PhoneGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/PhoneGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,20 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00004" summary="optimizacija po tasku 6">
-      <created>1600524482734</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1600524482734</updated>
-    </task>
-    <task id="LOCAL-00005" summary="homework 2">
-      <created>1600607746451</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1600607746451</updated>
     </task>
     <task id="LOCAL-00006" summary="homework 2update (exclude)">
       <created>1600616581182</created>
@@ -520,7 +508,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602267261203</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="homework 6 task 1 begin">
+      <created>1602267416541</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1602267416541</updated>
+    </task>
+    <task id="LOCAL-00054" summary="homework 6 task 1 begin">
+      <created>1602267451249</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1602267451249</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,22 +607,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601737805953" />
-    <state width="931" height="287" key="GridCell.Tab.0.bottom" timestamp="1602267207912">
+    <state width="931" height="287" key="GridCell.Tab.0.bottom" timestamp="1602269702193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602267207912" />
-    <state width="931" height="287" key="GridCell.Tab.0.center" timestamp="1602267207912">
+    <state width="931" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602269702193" />
+    <state width="931" height="287" key="GridCell.Tab.0.center" timestamp="1602269702193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602267207912" />
-    <state width="931" height="287" key="GridCell.Tab.0.left" timestamp="1602267207911">
+    <state width="931" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602269702193" />
+    <state width="931" height="287" key="GridCell.Tab.0.left" timestamp="1602269702193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602267207911" />
-    <state width="931" height="287" key="GridCell.Tab.0.right" timestamp="1602267207912">
+    <state width="931" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602269702193" />
+    <state width="931" height="287" key="GridCell.Tab.0.right" timestamp="1602269702193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602267207912" />
+    <state width="931" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602269702193" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
