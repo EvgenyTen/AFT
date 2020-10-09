@@ -26,6 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 task 1 begin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/NameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/NameGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/PhoneGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/PhoneGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +94,7 @@
       <recent name="main.homework3.task3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.Application (4)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.homework5.task3.Application" />
       <module name="AFT" />
@@ -119,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework5.task1.Application" />
+    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.homework4.task1.Application" />
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.homework5.task1.*" />
+          <option name="PATTERN" value="main.homework4.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework5.task2.Application" />
+    <configuration name="Application (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.homework4.task2.Application" />
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.homework5.task2.*" />
+          <option name="PATTERN" value="main.homework4.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (4)" />
+        <item itemvalue="Application.Application (3)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application (1)" />
-        <item itemvalue="Application.Application (5)" />
-        <item itemvalue="Application.Application (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602262590810</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="homework 6 task 1 begin">
+      <created>1602263199062</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1602263199062</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -584,22 +593,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601737805953" />
-    <state width="931" height="287" key="GridCell.Tab.0.bottom" timestamp="1601814566434">
+    <state width="931" height="287" key="GridCell.Tab.0.bottom" timestamp="1602263319229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601814566434" />
-    <state width="931" height="287" key="GridCell.Tab.0.center" timestamp="1601814566434">
+    <state width="931" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602263319229" />
+    <state width="931" height="287" key="GridCell.Tab.0.center" timestamp="1602263319228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601814566434" />
-    <state width="931" height="287" key="GridCell.Tab.0.left" timestamp="1601814566434">
+    <state width="931" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602263319228" />
+    <state width="931" height="287" key="GridCell.Tab.0.left" timestamp="1602263319228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601814566434" />
-    <state width="931" height="287" key="GridCell.Tab.0.right" timestamp="1601814566434">
+    <state width="931" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602263319228" />
+    <state width="931" height="287" key="GridCell.Tab.0.right" timestamp="1602263319228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601814566434" />
+    <state width="931" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602263319228" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600607677137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
