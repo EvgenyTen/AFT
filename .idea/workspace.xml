@@ -25,10 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 5 after task  5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework5/task5/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework5/task5/Application.java" afterDir="false" />
-    </list>
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 begin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -472,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601814619175</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="homework 6 begin">
+      <created>1602256458794</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1602256458794</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +548,8 @@
     <MESSAGE value="homework 5 after task  3" />
     <MESSAGE value="homework 5 after task  4" />
     <MESSAGE value="homework 5 after task  5" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 5 after task  5" />
+    <MESSAGE value="homework 6 begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 6 begin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="344" key="#Notifications" timestamp="1600605854442">
@@ -591,10 +596,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602256126667">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602256466824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602256126667" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602256466824" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
