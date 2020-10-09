@@ -13,12 +13,12 @@ public class Human {
         this.phone = phone;
     }
 
-    public String getSurname() {
-        return surname;
-    }
-
     public String getName() {
         return name;
+    }
+
+    public String getSurname() {
+        return surname;
     }
 
     public int getAge() {
