@@ -26,13 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 task 1 begin">
-      <change afterPath="$PROJECT_DIR$/src/main/homework6/task2/Chance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework6/task2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework6/task2/PhoneType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework6/task2/generators/AgeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework6/task2/generators/NameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework6/task2/generators/PhoneGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework6/task3/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework6/task4/IdentityDocumentType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/NameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/NameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/PhoneGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/PhoneGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task3/DayOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task3/DayOfWeek.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -491,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602256829271</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="homework 6 task 1 begin">
+      <created>1602257668935</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1602257668935</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
