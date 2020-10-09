@@ -6,9 +6,9 @@ public class Human {
     private int age;
     private String phone;
 
-    public Human(String lastName, String firstName, int age, String phone) {
-        this.surname = lastName;
-        this.name = firstName;
+    public Human(String surname, String name, int age, String phone) {
+        this.surname = surname;
+        this.name = name;
         this.age = age;
         this.phone = phone;
     }
