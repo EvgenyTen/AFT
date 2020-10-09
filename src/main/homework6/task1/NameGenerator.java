@@ -3,7 +3,7 @@ package main.homework6.task1;
 import java.util.Random;
 
 public class NameGenerator {
-    public static char generate() {
+    public static String generate() {
         char []smallLetters={'а','б', 'в', 'г', 'д','е','ё','ж','з', 'и','й','к','л','м', 'н', 'о','п', 'р','с','т','у','ф','х','ц','ч','ш','щ','ъ','ы','ь','э','ю', 'я'};
         char[] bigLetters={'А', 'Б','В', 'Г', 'Д','Е', 'Ё', 'Ж','З','И','Й','К','Л','М','Н','О','П','Р','С','Т','У','Ф','Х', 'Ц', 'Ч','Ш', 'Щ','Ъ', 'Ы', 'Ь', 'Э','Ю','Я'};
         //* генерация размера имени*//
@@ -16,7 +16,7 @@ public class NameGenerator {
         {
             name[i]=smallLetters[new Random().nextInt(32)];
         }
-
-        return name[0];
+        String stringName=new String(name);
+        return stringName;
     }
 }
