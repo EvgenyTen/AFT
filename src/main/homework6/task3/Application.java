@@ -16,7 +16,7 @@ public class Application {
         }
         pupil.setDiary(diary);
 
-        for (Map.Entry<DayOfWeek, List<Lesson>> dayEntry: pupil.getDiary().entrySet()) {
+        for (Map.Entry<DayOfWeek, List<Lesson>> dayEntry : pupil.getDiary().entrySet()) {
             StringBuilder format = new StringBuilder();
             format.append(dayEntry.getKey().getDay()).append(":");
             for (Lesson lesson : dayEntry.getValue()) {
@@ -37,8 +37,8 @@ public class Application {
 
         int maxLessonAmount = Collections.max(lessonCounters.values());
         int minLessonAmount = Collections.min(lessonCounters.values());
-        for (int i = maxLessonAmount; i >= minLessonAmount ; i--) {
-            for (Map.Entry<Lesson, Integer> entry: lessonCounters.entrySet()) {
+        for (int i = maxLessonAmount; i >= minLessonAmount; i--) {
+            for (Map.Entry<Lesson, Integer> entry : lessonCounters.entrySet()) {
                 if (entry.getValue() == i)
                     System.out.printf("%s: %d%n", entry.getKey().getLessonName(), entry.getValue());
             }

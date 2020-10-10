@@ -5,7 +5,12 @@ import java.util.List;
 import java.util.Random;
 
 public enum Lesson {
-    MATHS, PHYSICS, PROGRAMMING, HISTORY, BIOLOGY, GEOGRAPHY;
+    MATH("Математика"),
+    PHYSICS("Физика"),
+    PROGRAMMING("Программирование"),
+    HISTORY("История"),
+    BIOLOGY("Биология"),
+    GEOGRAPHY("География");
 
     public String lessonName;
 
@@ -13,8 +18,8 @@ public enum Lesson {
         this.lessonName = lessonName;
     }
 
-    Lesson() {
-        this.lessonName = lessonName;
+    public String getLessonName() {
+        return lessonName;
     }
 
     public static List<Lesson> generateLessons() {
@@ -26,7 +31,5 @@ public enum Lesson {
         return lessonsList;
     }
 
-    public String getLessonName() {
-        return lessonName;
-    }
+
 }
