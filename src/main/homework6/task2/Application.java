@@ -1,6 +1,30 @@
 package main.homework6.task2;
 
+import main.homework6.task2.generators.HumanGenerator;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
 public class Application {
     public static void main(String[] args) {
+        //*коллекция сет*//
+        Set<Human> humans = new HashSet<>();
+        for (int i = 0; i < 2000; i++) {
+            humans.add(HumanGenerator.generate());
+        }
+       //*итератор чтоб не порушить  и гарантировать порядок*//
+        Iterator<Human> iterator = humans.iterator();
+        //*выводим людей у которых 3 или 0 телефонов
+        while (iterator.hasNext()) {
+            Human human = iterator.next();
+            Set<PhoneType> phoneTypes = human.getPhones().keySet();
+            // На самом деле можем просто проверять то, что human.getPhones().size() == 3, но так более читаемо и гибко:
+            if (human.getPhones().size()==3 ||human.getPhones().size()==0) {
+                System.out.printf("Фамилия : %s  Имя: %s , возраст :  %d ,  HOME : %s , WORK: %s , MOBILE : %s%n",
+                        human.getSurname(), human.getName(), human.getAge(),
+                        human.getPhones().get(PhoneType.HOME), human.getPhones().get(PhoneType.WORK),human.getPhones().get(PhoneType.MOBILE));
+            }
+        }
     }
 }
