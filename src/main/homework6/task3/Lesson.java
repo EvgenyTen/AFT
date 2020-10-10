@@ -25,4 +25,8 @@ public enum Lesson {
         }
         return lessonsList;
     }
+
+    public String getLessonName() {
+        return lessonName;
+    }
 }

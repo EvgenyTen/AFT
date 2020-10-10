@@ -1,18 +1,21 @@
-package main.homework6.task3;
+package homework_solution.lesson6.task3;
+
+import main.homework6.task3.DayOfWeek;
+import main.homework6.task3.Lesson;
+import main.homework6.task3.Scholar;
 
 import java.util.*;
 
 public class Application {
+
     public static void main(String[] args) {
-        //*создаем объект*//
         Scholar pupil = new Scholar();
         Map<DayOfWeek, List<Lesson>> diary = new TreeMap<>();
-        //*фор по энуму дэйофвик и генерация уроков*//
         for (DayOfWeek day : DayOfWeek.values()) {
             diary.put(day, Lesson.generateLessons());
         }
         pupil.setDiary(diary);
-        // Выводим расписание в консоль
+
         for (Map.Entry<DayOfWeek, List<Lesson>> dayEntry: pupil.getDiary().entrySet()) {
             StringBuilder format = new StringBuilder();
             format.append(dayEntry.getKey().getDay()).append(":");
@@ -23,7 +26,6 @@ public class Application {
             System.out.println(formattedString);
         }
 
-        // Посчитаем количество уроков
         Map<Lesson, Integer> lessonCounters = new HashMap<>();
         for (Lesson lesson : Lesson.values())
             lessonCounters.put(lesson, 0);
@@ -41,6 +43,7 @@ public class Application {
                     System.out.printf("%s: %d%n", entry.getKey().getLessonName(), entry.getValue());
             }
         }
-    }
-}
 
+    }
+
+}
