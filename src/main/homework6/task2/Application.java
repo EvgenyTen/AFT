@@ -15,7 +15,6 @@ public class Application {
         }
         //*итератор чтоб не порушить  и гарантировать порядок*//
         Iterator<Human> iterator = humans.iterator();
-        //*выводим людей у которых 3 или 0 телефонов
         while (iterator.hasNext()) {
             Human human = iterator.next();
             Set<PhoneType> phoneTypes = human.getPhones().keySet();
@@ -24,12 +23,10 @@ public class Application {
                         human.getSurname(), human.getName(), human.getAge(),
                         human.getPhones().get(PhoneType.HOME), human.getPhones().get(PhoneType.WORK), human.getPhones().get(PhoneType.MOBILE));
             }
-            if (human.getPhones().size() == 0) {
-                System.out.printf("Фамилия : %s  Имя: %s , возраст :  %d ,  HOME : %s , WORK: %s , MOBILE : %s%n",
-                        human.getSurname(), human.getName(), human.getAge(),
-                        human.getPhones().get(PhoneType.HOME), human.getPhones().get(PhoneType.WORK), human.getPhones().get(PhoneType.MOBILE));
+            if (human.getPhones().size() >= 1)
+                iterator.remove();
             }
-
+        System.out.println("После удаления: " + humans.size());
         }
     }
-}
+
