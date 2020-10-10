@@ -8,6 +8,7 @@ public enum IdentityDocumentType {
     INTERNATIONAL_PASSPORT("22", "Загранпаспорт гражданина Российской Федерации");
     private String code;
     private String description;
+
     IdentityDocumentType(String code, String description) {
         this.code = code;
         this.description = description;
@@ -19,5 +20,11 @@ public enum IdentityDocumentType {
 
     public String getDescription() {
         return description;
+    }
+    public static IdentityDocumentType byCode(String code) {
+        for (IdentityDocumentType documentType : values()) {
+            if (documentType.code.equals(code)) return documentType;
+        }
+        return null;
     }
 }
