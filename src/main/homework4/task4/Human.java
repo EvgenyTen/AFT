@@ -35,7 +35,7 @@ public class Human {
 
     public Human setPassport(Passport passport) {
         if (passport == null) {
-            System.out.println("Ннвалиден");
+            System.out.println("Невалиден");
             return this;
         }
         if (passport.getNumber() != null && passport.getSeries() != null) {
