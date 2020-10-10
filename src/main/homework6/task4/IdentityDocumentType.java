@@ -22,8 +22,8 @@ public enum IdentityDocumentType {
         return description;
     }
     public static IdentityDocumentType byCode(String code) {
-        for (IdentityDocumentType documentType : values()) {
-            if (documentType.code.equals(code)) return documentType;
+        for (IdentityDocumentType type : values()) {
+            if (type.code.equals(code)) return type;
         }
         return null;
     }
