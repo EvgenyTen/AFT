@@ -26,14 +26,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 task 1 finished">
-      <change afterPath="$PROJECT_DIR$/src/main/homework6/task2/generators/HumanGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task2/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/Chance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task2/Chance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task2/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/generators/AgeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task2/generators/AgeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/generators/NameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task2/generators/NameGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/generators/PhoneGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task2/generators/PhoneGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework6/task1/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/Chance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/PhoneType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/generators/AgeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/generators/HumanGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/generators/NameGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task2/generators/PhoneGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task3/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task3/DayOfWeek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task3/Lesson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task4/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework6/task4/IdentityDocumentType.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,12 +111,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Application (5)">
-    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework5.task4.Application" />
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.homework6.task2.Application" />
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.homework5.task4.*" />
+          <option name="PATTERN" value="main.homework6.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,10 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application (5)" />
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application (4)" />
         <item itemvalue="Application.Application (3)" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Application (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00011" summary="homework 3 after after task 3">
-      <created>1601112697452</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1601112697452</updated>
     </task>
     <task id="LOCAL-00012" summary="homework 3 after after task 3">
       <created>1601112789731</created>
@@ -530,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602271695109</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="homework 6 task 1 finished">
+      <created>1602327689714</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1602327689714</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -620,22 +628,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601737805953" />
-    <state width="931" height="287" key="GridCell.Tab.0.bottom" timestamp="1602271654220">
+    <state width="931" height="287" key="GridCell.Tab.0.bottom" timestamp="1602327724744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602271654220" />
-    <state width="931" height="287" key="GridCell.Tab.0.center" timestamp="1602271654220">
+    <state width="931" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602327724744" />
+    <state width="931" height="287" key="GridCell.Tab.0.center" timestamp="1602327724744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602271654220" />
-    <state width="931" height="287" key="GridCell.Tab.0.left" timestamp="1602271654220">
+    <state width="931" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602327724744" />
+    <state width="931" height="287" key="GridCell.Tab.0.left" timestamp="1602327724743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602271654220" />
-    <state width="931" height="287" key="GridCell.Tab.0.right" timestamp="1602271654220">
+    <state width="931" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602327724743" />
+    <state width="931" height="287" key="GridCell.Tab.0.right" timestamp="1602327724744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602271654220" />
+    <state width="931" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602327724744" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -668,6 +676,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600607054954" />
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1602328014180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602328014180" />
     <state x="716" y="242" key="run.anything.popup" timestamp="1601111086574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
