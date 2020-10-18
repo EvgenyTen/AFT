@@ -26,9 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 7 begin">
-      <change afterPath="$PROJECT_DIR$/src/main/homework7/task1/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework7/task3/ChessFigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework7/task3/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework7/task3/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework7/task4/AnnuityCredit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework7/task4/BaseCredit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework7/task4/DifferentiateCredit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task4/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task4/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task1/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task1/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,13 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00026" summary="homework 4">
-      <created>1601565066568</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1601565066568</updated>
     </task>
     <task id="LOCAL-00027" summary="homework 4 after 1">
       <created>1601575101479</created>
@@ -533,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603013349041</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="homework 7 begin">
+      <created>1603013990824</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1603013990824</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,21 +637,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602761578967" />
-    <state width="930" height="287" key="GridCell.Tab.0.bottom" timestamp="1602756395286">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1603021125901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603021125901" />
     <state width="930" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602756395286" />
-    <state width="930" height="287" key="GridCell.Tab.0.center" timestamp="1602756395286">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1603021125900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603021125900" />
     <state width="930" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602756395286" />
-    <state width="930" height="287" key="GridCell.Tab.0.left" timestamp="1602756395286">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1603021125900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603021125900" />
     <state width="930" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602756395286" />
-    <state width="930" height="287" key="GridCell.Tab.0.right" timestamp="1602756395286">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1603021125900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603021125900" />
     <state width="930" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602756395286" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -667,9 +677,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602679504794">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603013996246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603013996246" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602679504794" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
