@@ -17,7 +17,7 @@ public class BaseCredit {
         return paymentsList;
     }
     public Double calculateOverpayment(){
-        double overPayment=rate*(amount/duration);
+        double overPayment=(rate/100)*(amount/duration);
         return overPayment;
     }
 
