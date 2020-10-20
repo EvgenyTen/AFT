@@ -8,8 +8,15 @@ public class BaseCredit {
     public double rate;
     int duration;
 
+    public BaseCredit(double amount, double rate, int duration) {
+    this.amount=amount;
+    this.rate=rate;
+    this.duration=duration;
 
-    public List<Double> getMonthPayments(double amount, double rate, int duration) {
+    }
+
+
+    public List<Double> getMonthPayments() {
         List<Double> paymentsList = new ArrayList<>();
         for (int i = 0; i < this.duration; i++) {
             double monthPayment = this.amount / this.duration;
