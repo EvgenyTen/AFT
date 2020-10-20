@@ -5,12 +5,12 @@ import java.util.List;
 
 public class DifferentiateCredit extends BaseCredit {
     @Override
-    public static List<Double> getMonthPayments(){
+    public  List<Double> getMonthPayments(double amount, double rate, int duration){
         List<Double> paymentsList=new ArrayList<>();
-        double currentCredit=amount;
-        for(int k=0;k<duration;k++){
-            Double percents=currentCredit*rate/100/12;
-            Double monthlyPayment=amount/duration+percents;
+        double currentCredit= this.amount;
+        for(int k = 0; k< this.duration; k++){
+            Double percents=currentCredit* this.rate /100/12;
+            Double monthlyPayment= this.amount / this.duration +percents;
             currentCredit-=(monthlyPayment-percents);
             paymentsList.add(monthlyPayment);
         }

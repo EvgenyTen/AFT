@@ -6,11 +6,11 @@ import java.util.List;
 public class AnnuityCredit extends BaseCredit {
 
     @Override
-    public static List<Double> getMonthPayments(){
-        double ratePerMonth=rate/100/12;
+    public  List<Double> getMonthPayments(double amount, double rate, int duration){
+        double ratePerMonth= this.rate /100/12;
         List<Double> paymentsList=new ArrayList<>();
-        double monthlyPayment=amount*ratePerMonth*Math.pow(1+ratePerMonth,duration)/(Math.pow(1+ratePerMonth,duration)-1);
-        for(int j=0;j<duration;j++){
+        double monthlyPayment= this.amount *ratePerMonth*Math.pow(1+ratePerMonth, this.duration)/(Math.pow(1+ratePerMonth, this.duration)-1);
+        for(int j = 0; j< this.duration; j++){
             paymentsList.add(monthlyPayment);
         }
         return paymentsList;
