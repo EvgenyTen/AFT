@@ -1,4 +1,4 @@
-package main.homework7.task3;
+package main.homework7.task3.chess;
 
 public class Position {
     private int horizontal;
