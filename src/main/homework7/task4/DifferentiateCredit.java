@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DifferentiateCredit extends BaseCredit {
-    public  DifferentiateCredit(double amount, double rate, int duration) {
-        super(amount,rate,duration);
+    public DifferentiateCredit(double amount, double rate, int duration) {
+        super(amount, rate, duration);
     }
 
     @Override

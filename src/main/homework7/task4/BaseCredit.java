@@ -9,9 +9,9 @@ public class BaseCredit {
     int duration;
 
     public BaseCredit(double amount, double rate, int duration) {
-    this.amount=amount;
-    this.rate=rate;
-    this.duration=duration;
+        this.amount = amount;
+        this.rate = rate;
+        this.duration = duration;
 
     }
 
