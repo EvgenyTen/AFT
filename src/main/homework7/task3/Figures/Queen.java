@@ -4,6 +4,7 @@ import main.homework7.task3.chess.Player;
 public class Queen extends ChessFigure {
     public Queen (Player player, String position) {
         super(player, position);
+        figureName="Ферзь";
     }
 
 }
