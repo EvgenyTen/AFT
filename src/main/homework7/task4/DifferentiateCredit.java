@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DifferentiateCredit extends BaseCredit {
     @Override
-    public List<Double> getMonthPayments(){
+    public static List<Double> getMonthPayments(){
         List<Double> paymentsList=new ArrayList<>();
         double currentCredit=amount;
         for(int k=0;k<duration;k++){

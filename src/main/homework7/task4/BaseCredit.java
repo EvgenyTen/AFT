@@ -8,7 +8,7 @@ public class BaseCredit {
     int duration;
 
 
-    public List<Double> getMonthPayments(){
+    public static List<Double> getMonthPayments(){
         List<Double> paymentsList=new ArrayList<>();
         for (int i=0;i<duration;i++){
             double monthPayment=amount/duration;
@@ -16,7 +16,7 @@ public class BaseCredit {
         }
         return paymentsList;
     }
-    public Double calculateOverpayment(){
+    public static Double calculateOverpayment(){
         double overPayment=(rate/100)*(amount/duration);
         return overPayment;
     }

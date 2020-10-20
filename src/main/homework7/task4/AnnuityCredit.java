@@ -6,7 +6,7 @@ import java.util.List;
 public class AnnuityCredit extends BaseCredit {
 
     @Override
-    public List<Double> getMonthPayments(){
+    public static List<Double> getMonthPayments(){
         double ratePerMonth=rate/100/12;
         List<Double> paymentsList=new ArrayList<>();
         double monthlyPayment=amount*ratePerMonth*Math.pow(1+ratePerMonth,duration)/(Math.pow(1+ratePerMonth,duration)-1);
