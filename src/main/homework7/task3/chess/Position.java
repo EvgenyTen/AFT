@@ -9,7 +9,10 @@ public class Position {
         char vertical=position.charAt(1);
         if(horizontal<='A'|| horizontal>='H')
             throw new IllegalArgumentException();
-
+        if(horizontal<='1'|| horizontal>='8')
+            throw new IllegalArgumentException();
+        if(position.length()!=2)
+            throw new IllegalArgumentException();
     }
 
     public char getHorizontal() {
