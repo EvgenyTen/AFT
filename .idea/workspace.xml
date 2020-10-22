@@ -26,9 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 7 alltask partialy or partially working">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task4/AnnuityCredit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task4/AnnuityCredit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task4/BaseCredit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task4/BaseCredit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/ChessFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/ChessFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/chess/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/chess/Position.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/homework6/task2/generators" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -619,6 +624,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="712" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600605854442" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1603388944709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603388944709" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603389553025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603389553025" />
+    <state x="664" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1603389659262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603389659262" />
+    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603389727005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1603389727005" />
     <state x="617" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603037319125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
