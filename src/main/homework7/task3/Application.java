@@ -10,7 +10,7 @@ public class Application {
        Set<Position> allPositions= Chess.getAll();
         for (Position pos:allPositions) {
             System.out.println(pos);
-
         }
+        System.out.println(allPositions.size());
     }
 }

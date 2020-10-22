@@ -21,6 +21,5 @@ public abstract class ChessFigure {
     }
 
     public abstract  Set<Position> getAvaibleMoves(){
-
     }
 }
