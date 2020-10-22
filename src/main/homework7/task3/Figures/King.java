@@ -6,12 +6,18 @@ import main.homework7.task3.chess.Position;
 import java.util.Set;
 
 public class King extends ChessFigure{
-    public King (Player player, String position) {
+    public King (Player player, String position) {//
         super(player, position);
         figureName="Король";
     }
+
+    public King(Position position) {
+        super("Король",position);
+    }
+
     @Override
     public Set<Position> getAvaibleMoves(){
+        return null;
 
     }
 }

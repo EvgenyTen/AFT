@@ -15,6 +15,11 @@ public class Position {
             throw new IllegalArgumentException();
     }
 
+    public Position(char horizontal, char vertical) {
+        this.horizontal = horizontal;
+        this.vertical = vertical;
+    }
+
     public char getHorizontal() {
         return horizontal;
     }
