@@ -6,9 +6,8 @@ import main.homework7.task3.chess.Position;
 import java.util.Set;
 
 public class Knight extends ChessFigure{
-    public Knight(Player player, String position) {
-        super(player, position);
-        figureName="Конь";
+    public Knight(Position position) {
+        super("Конь",position);
     }
     @Override
     public Set<Position> getAvaibleMoves(){
