@@ -11,6 +11,7 @@ public class Application {
     public static void main(String[] args) {
         Position position=new Position("A4");
         ChessFigure figure=new King(position);
-        figure.getAvaibleMoves();
+        Set <Position> kingAvailableMoves=figure.getAvaibleMoves();
+        System.out.println();
     }
 }

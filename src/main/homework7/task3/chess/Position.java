@@ -5,11 +5,11 @@ public class Position {
     private char vertical;
 
     public Position(String position){
-        char horizontal=position.charAt(0);
-        char vertical=position.charAt(1);
-        if(horizontal<='A'|| horizontal>='H')
+         horizontal=position.charAt(0);
+         vertical=position.charAt(1);
+        if(horizontal <'A'|| horizontal>'H')
             throw new IllegalArgumentException();
-        if(horizontal<='1'|| horizontal>='8')
+        if(horizontal<'1'|| horizontal>'8')
             throw new IllegalArgumentException();
         if(position.length()!=2)
             throw new IllegalArgumentException();
