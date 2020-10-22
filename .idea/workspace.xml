@@ -26,10 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 7 alltask partialy or partially working">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/ChessFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/ChessFigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/King.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/chess/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/chess/Position.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,55 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00029" summary="homework 4 after 2">
-      <created>1601614095716</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1601614095716</updated>
-    </task>
-    <task id="LOCAL-00030" summary="homework 4 after 2">
-      <created>1601614139634</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1601614139634</updated>
-    </task>
-    <task id="LOCAL-00031" summary="homework 4 after 2">
-      <created>1601660935987</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1601660935987</updated>
-    </task>
-    <task id="LOCAL-00032" summary="homework 4 after task  3">
-      <created>1601663152022</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1601663152022</updated>
-    </task>
-    <task id="LOCAL-00033" summary="homework 4 after task  3">
-      <created>1601663580410</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1601663580410</updated>
-    </task>
-    <task id="LOCAL-00034" summary="homework 4 after task  4">
-      <created>1601738888329</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1601738888329</updated>
-    </task>
-    <task id="LOCAL-00035" summary="homework 4 after task  4">
-      <created>1601739023677</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1601739023677</updated>
     </task>
     <task id="LOCAL-00036" summary="homework 5 after task  2">
       <created>1601810214720</created>
@@ -538,7 +488,56 @@
       <option name="project" value="LOCAL" />
       <updated>1603205659316</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="homework 7 alltask partialy or partially working">
+      <created>1603390003682</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1603390003682</updated>
+    </task>
+    <task id="LOCAL-00079" summary="homework 7 alltask partialy or partially working">
+      <created>1603390121175</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1603390121175</updated>
+    </task>
+    <task id="LOCAL-00080" summary="homework 7 alltask partialy or partially working">
+      <created>1603390553750</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1603390553750</updated>
+    </task>
+    <task id="LOCAL-00081" summary="homework 7 alltask partialy or partially working">
+      <created>1603392500767</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1603392500767</updated>
+    </task>
+    <task id="LOCAL-00082" summary="homework 7 alltask partialy or partially working">
+      <created>1603397334059</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1603397334059</updated>
+    </task>
+    <task id="LOCAL-00083" summary="homework 7 alltask partialy or partially working">
+      <created>1603397531900</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1603397531900</updated>
+    </task>
+    <task id="LOCAL-00084" summary="homework 7 alltask partialy or partially working">
+      <created>1603397821946</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1603397821946</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,10 +627,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603388944709" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603389553025">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603391854756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603389553025" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603391854756" />
     <state x="664" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1603389659262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -693,11 +692,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603205664339">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603397826245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603205664339" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602679504794" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603397826245" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
