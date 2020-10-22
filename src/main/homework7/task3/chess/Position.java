@@ -24,11 +24,9 @@ public class Position {
     }
 
 
-    public void setHorizontal(char horizontal) {
-        this.horizontal = horizontal;
-    }
+    @Override
+    public String toString() {
+        return  String.valueOf(horizontal)+vertical;
 
-    public void setVertical(char vertical) {
-        this.vertical = vertical;
     }
 }
