@@ -25,14 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 7 alltask partialy or partially working">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Bishop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Rook.java" afterDir="false" />
-    </list>
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 7 alltask partialy or partially working" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00039" summary="homework 5 after task  4">
-      <created>1601812869856</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1601812869856</updated>
     </task>
     <task id="LOCAL-00040" summary="homework 5 after task  4">
       <created>1601813069198</created>
@@ -539,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603484232587</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="homework 7 alltask partialy or partially working">
+      <created>1603485457390</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1603485457390</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -694,11 +687,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603397826245">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603485466359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603205664339" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603397826245" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603485466359" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
