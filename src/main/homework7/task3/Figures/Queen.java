@@ -10,7 +10,7 @@ public class Queen extends ChessFigure {
     }
     @Override
     public Set<Position> getAvaibleMoves(){
-
+        return null;
     }
 
 }

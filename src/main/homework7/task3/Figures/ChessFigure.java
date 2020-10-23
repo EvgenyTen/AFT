@@ -20,6 +20,5 @@ public abstract class ChessFigure {
         this.position = position;
     }
 
-    public abstract  Set<Position> getAvaibleMoves(){
-    }
+    public abstract  Set<Position> getAvaibleMoves();
 }

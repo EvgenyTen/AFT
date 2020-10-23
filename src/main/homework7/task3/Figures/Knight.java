@@ -11,6 +11,6 @@ public class Knight extends ChessFigure{
     }
     @Override
     public Set<Position> getAvaibleMoves(){
-
+return null;
     }
 }

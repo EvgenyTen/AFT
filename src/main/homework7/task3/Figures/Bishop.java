@@ -11,7 +11,7 @@ public class Bishop extends ChessFigure {
     }
     @Override
     public Set<Position> getAvaibleMoves(){
-
+   return null;
     }
 
 }
