@@ -22,9 +22,9 @@ public class Pawn extends ChessFigure{
         return avaibleMoves;
     }
     private boolean isMoveAvailable(Position figurePosition,Position candidate){
-        int dx=Math.abs(figurePosition.getHorizontal()-candidate.getHorizontal());
+       // int dx=Math.abs(figurePosition.getHorizontal()-candidate.getHorizontal());
         int dy=Math.abs(figurePosition.getVertical()-candidate.getVertical());
-        if(dx==0 && dy==1) return true;
+        if(dy==1) return true;
         return false;
     }
 }

@@ -8,10 +8,17 @@ import main.homework7.task3.chess.Position;
 import java.util.Set;
 
 public class Application {
+
     public static void main(String[] args) {
         Position position=new Position("A4");
         ChessFigure figure=new King(position);
         Set <Position> kingAvailableMoves=figure.getAvaibleMoves();
-        System.out.println();
+        System.out.println("Король");
+        System.out.println(kingAvailableMoves);
+        Position positionPawn=new Position("A2");
+        System.out.println("Пешка");
+        ChessFigure figurePawn=new King(position);
+        Set <Position> pawnAvailableMoves=figure.getAvaibleMoves();
+        System.out.println(pawnAvailableMoves);
     }
 }
