@@ -26,10 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 7 -1.3.4">
-      <change afterPath="$PROJECT_DIR$/src/main/homework8/task1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework8/task2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework8/task3/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework8/task4/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework8/task1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,12 +99,15 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AFT\src\main\homework6\task2\generators" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.homework8.task1" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.homework6.task4" />
       <recent name="main.homework3.task3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AFT\src\main\homework6\task2\generators" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application (2)">
@@ -193,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00042" summary="homework 5 after task  5">
-      <created>1601814619175</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1601814619175</updated>
     </task>
     <task id="LOCAL-00043" summary="homework 6 begin">
       <created>1602256458794</created>
@@ -537,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603485970685</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="homework 7 -1.3.4">
+      <created>1603486233672</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1603486233674</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -692,11 +693,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603485974909">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603486492018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603205664339" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603485974909" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603486492018" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
