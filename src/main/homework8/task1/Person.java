@@ -27,5 +27,11 @@ public class Person {
         int number = new Random().nextInt(20) + 1;
         return number;
     }
+
+    @Override
+    public String toString() {
+        String str=String.format("Фамилия : %s  , Имя : s%",surname,name);
+        return str;
+    }
 }
 
