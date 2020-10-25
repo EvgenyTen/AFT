@@ -26,8 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 8-start">
-      <change afterPath="$PROJECT_DIR$/src/main/homework8/task2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework8/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/homework8/task1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task1/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
