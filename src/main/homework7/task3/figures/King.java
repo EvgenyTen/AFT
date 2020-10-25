@@ -1,11 +1,9 @@
-package main.homework7.task3.Figures;
+package main.homework7.task3.figures;
 
 import main.homework7.task3.chess.Chess;
-import main.homework7.task3.chess.Player;
 import main.homework7.task3.chess.Position;
 
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 public class King extends ChessFigure{

@@ -1,4 +1,4 @@
-package main.homework7.task3.Figures;
+package main.homework7.task3.figures;
 import main.homework7.task3.chess.Player;
 import main.homework7.task3.chess.Position;
 

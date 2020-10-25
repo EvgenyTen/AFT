@@ -8,9 +8,9 @@ public class Chess {
         Set<Position> allMoves = new HashSet<>();
         for (char h = 'A'; h <= 'H'; h++)
             for (char v = '1'; v <= '8'; v++) {
-                Position position=new Position(h,v);
+                Position position = new Position(h, v);
                 allMoves.add(position);
-    }
+            }
         return allMoves;
     }
 }

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,11 +28,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 8-start">
-      <change afterPath="$PROJECT_DIR$/src/main/notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 8-1 done">
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task1/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/ChessFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/ChessFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/chess/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/chess/Chess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/chess/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/chess/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/homework8/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task1/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/homework8/task1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework8/task4/Accaunt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task4/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,13 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00045" summary="homework 6 task 1 begin">
-      <created>1602257668935</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1602257668935</updated>
     </task>
     <task id="LOCAL-00046" summary="homework 6 task 1 begin">
       <created>1602262590810</created>
@@ -541,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603622253807</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="homework 8-1 done">
+      <created>1603628485845</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1603628485845</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +608,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="homework 3 after after task 1" />
     <MESSAGE value="homework 3 after after task 2-bez sortirovki" />
     <MESSAGE value="homework 3 after after task 3" />
     <MESSAGE value="homework 3 in the task 4" />
@@ -620,7 +632,8 @@
     <MESSAGE value="homework 7 alltask partialy or partially working" />
     <MESSAGE value="homework 7 -1.3.4" />
     <MESSAGE value="homework 8-start" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 8-start" />
+    <MESSAGE value="homework 8-1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 8-1 done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="344" key="#Notifications" timestamp="1600605854442">
@@ -660,26 +673,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602761578967" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1603628370686">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1603628468131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558922" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603628370686" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1603628370686">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603628468131" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1603628468131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558921" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603628370686" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1603628370686">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603628468131" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1603628468131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558921" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603628370686" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1603628370686">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603628468131" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1603628468131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558922" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603628370686" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603628468131" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -700,11 +713,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603543605255">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603628490516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603205664339" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603543605255" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603628490516" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

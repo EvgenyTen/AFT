@@ -13,8 +13,8 @@ public class Person {
     private String name;
 
     public Person() {
-    surname="Фамилия-"+numberGenerate();
-    name="Имя-"+numberGenerate();
+        surname = "Фамилия-" + numberGenerate();
+        name = "Имя-" + numberGenerate();
     }
 
     public String getSurname() {
@@ -33,7 +33,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return surname +" " + name  ;
+        return surname + " " + name;
     }
 
     @Override

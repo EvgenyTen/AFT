@@ -4,14 +4,14 @@ public class Position {
     private char horizontal;
     private char vertical;
 
-    public Position(String position){
-         horizontal=position.charAt(0);
-         vertical=position.charAt(1);
-        if(horizontal <'A'|| horizontal>'H')
+    public Position(String position) {
+        horizontal = position.charAt(0);
+        vertical = position.charAt(1);
+        if (horizontal < 'A' || horizontal > 'H')
             throw new IllegalArgumentException();
-        if(vertical<'1'|| vertical>'8')
+        if (vertical < '1' || vertical > '8')
             throw new IllegalArgumentException();
-        if(position.length()!=2)
+        if (position.length() != 2)
             throw new IllegalArgumentException();
     }
 
@@ -31,7 +31,7 @@ public class Position {
 
     @Override
     public String toString() {
-        return  String.valueOf(horizontal)+vertical;
+        return String.valueOf(horizontal) + vertical;
 
     }
 }
