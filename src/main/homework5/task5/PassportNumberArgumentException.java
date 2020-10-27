@@ -1,4 +1,4 @@
 package main.homework5.task5;
 
-public class PassportNumberArgumentException  extends PassportIllegalArgumentException{
+public class PassportNumberArgumentException extends PassportIllegalArgumentException {
 }

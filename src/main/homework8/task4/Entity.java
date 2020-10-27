@@ -1,6 +1,6 @@
 package main.homework8.task4;
 
-public class Entity implements Validatable{
+public class Entity implements Validatable {
     protected String name;
     protected String uuid;
 

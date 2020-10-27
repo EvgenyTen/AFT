@@ -25,8 +25,8 @@ public class Application {
             }
             if (human.getPhones().size() >= 1)
                 iterator.remove();
-            }
-        System.out.println("После удаления: " + humans.size());
         }
+        System.out.println("После удаления: " + humans.size());
     }
+}
 

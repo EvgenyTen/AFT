@@ -16,7 +16,7 @@ public class Application {
                 new Branch("Office", "Voronezh"), new Branch("Office2", "Voronezh2"), new Branch("Office", "Voronezh2"),
                 new Client("Terra Incognito", "Msk.Tverstkaya 1"), new Client("Terra Incognito", "Msk.Tverstkaya 1"),
                 new Client("Terra Incognito2", "Msk.Tverstkaya 2")
-                );
-            for(Entity entity:list) entity.validate();
+        );
+        for (Entity entity : list) entity.validate();
     }
 }

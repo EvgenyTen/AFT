@@ -1,4 +1,5 @@
 package main.homework8.task2;
+
 import java.util.Random;
 
 public class Person {

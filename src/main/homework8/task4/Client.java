@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Client extends Entity {
     private String adress;
 
-    public Client(String name,String adress) {
+    public Client(String name, String adress) {
         super(name);
         this.adress = adress;
     }
@@ -16,14 +16,14 @@ public class Client extends Entity {
         if (o == null || getClass() != o.getClass()) return false;
 
         Client client = (Client) o;
-        if(!Objects.equals(adress,client.adress)) return false;
-        return Objects.equals(name,client.name);
+        if (!Objects.equals(adress, client.adress)) return false;
+        return Objects.equals(name, client.name);
     }
 
     @Override
     public int hashCode() {
-        int res= adress != null ? adress.hashCode() : 0;
-        res=31*res+(name!=null?name.hashCode():0);
+        int res = adress != null ? adress.hashCode() : 0;
+        res = 31 * res + (name != null ? name.hashCode() : 0);
         return res;
     }
 

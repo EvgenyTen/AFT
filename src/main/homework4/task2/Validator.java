@@ -32,10 +32,10 @@ public class Validator {
     public static boolean isArrayFull(Human[] array) {
         boolean isArrayFull = true;
         for (int i = 0; i < array.length; i++) {
-            if (i < (array.length-1)) {
+            if (i < (array.length - 1)) {
                 isArrayFull = false;
                 System.out.println("Массив доступен для заполнения");
-              break;
+                break;
             } else {
                 System.out.println("Массив полностью заполнен");
             }

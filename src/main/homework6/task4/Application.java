@@ -29,7 +29,7 @@ public class Application {
             IdentityDocumentType documentType = IdentityDocumentType.byCode(code);
             System.out.printf("%s (%s): %d%n", documentType.getDescription(), code, counters.get(documentType));
         }
-        
+
         Iterator<Person> iterator = persons.iterator();
         while (iterator.hasNext()) {
             Person person = iterator.next();

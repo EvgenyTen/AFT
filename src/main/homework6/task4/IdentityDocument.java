@@ -11,6 +11,7 @@ public class IdentityDocument {
         this.type = type;
         this.id = id;
     }
+
     public IdentityDocumentType getType() {
         return type;
     }

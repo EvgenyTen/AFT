@@ -6,6 +6,7 @@ public class Template {
     private static final String DIGITS = "0123456789";
     private static final String RUSSIAN_CAPITALS = "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ";
     private static final String RANDOM_SYMBOL = "QAZXSWEDCVFRTGBNHYUJMKILOP0123456789";
+
     public static String generate(IdentityDocumentType documentType) {
 
         switch (documentType) {
