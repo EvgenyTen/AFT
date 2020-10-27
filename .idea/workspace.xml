@@ -29,20 +29,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 8-1 done">
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task1/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Bishop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/ChessFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/ChessFigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Pawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/Figures/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/figures/Rook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/chess/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/chess/Chess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework7/task3/chess/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework7/task3/chess/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework8/task1/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task1/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework8/task1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task1/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework8/task4/Accaunt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task4/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework8/task3/EleksnetTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework8/task3/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework8/task3/QiwiTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework8/task3/Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework8/task3/TinkoffTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework8/task4/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework8/task2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/homework8/task2/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,13 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00046" summary="homework 6 task 1 begin">
-      <created>1602262590810</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1602262590810</updated>
     </task>
     <task id="LOCAL-00047" summary="homework 6 task 1 begin">
       <created>1602263199062</created>
@@ -554,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603628485845</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="homework 8-1 done">
+      <created>1603654096522</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1603654096522</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,10 +642,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603628175538" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603628190741">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603818749729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603628190741" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603818749729" />
     <state x="664" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1603389659262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -673,26 +667,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602761578967" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1603628468131">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1603654106937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558922" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603628468131" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1603628468131">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603654106937" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1603654106937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558921" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603628468131" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1603628468131">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603654106937" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1603654106937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558921" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603628468131" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1603628468131">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603654106937" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1603654106937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558922" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603628468131" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603654106937" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -713,11 +707,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603628490516">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603654098382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603205664339" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603628490516" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603654098382" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
