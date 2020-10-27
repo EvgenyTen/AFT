@@ -14,7 +14,7 @@ public class TinkoffTerminal extends Terminal {
 
     @Override
     public void pay(String phoneNumber, double sumOfMoney) {
-        if(sumOfMoney>=minimalPayment)super.pay(phoneNumber, sumOfMoney);
+        if (sumOfMoney >= minimalPayment) super.pay(phoneNumber, sumOfMoney);
         else System.out.printf("Минимальная сумма для пополнения 100 рублей.Ваш Тинькофф");
     }
 }

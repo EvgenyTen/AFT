@@ -1,8 +1,11 @@
 package main.homework8.task4;
 
-public class Entity {
+public class Entity implements Validatable{
     protected String name;
     protected String uuid;
+
+    public Entity(String name) {
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -14,5 +17,10 @@ public class Entity {
 
     public void setUuid(String uuid) {
         this.uuid = uuid;
+    }
+
+    @Override
+    public void validate() {
+        ValidatorStub.validateEntety(this);
     }
 }
