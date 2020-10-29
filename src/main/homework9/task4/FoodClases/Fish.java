@@ -1,4 +1,10 @@
 package main.homework9.task4.FoodClases;
 
-public class Fish {
+import main.homework9.task4.Food;
+
+public class Fish extends Food {
+    public Fish() {
+        super();
+        cookingTime = 40;
+    }
 }

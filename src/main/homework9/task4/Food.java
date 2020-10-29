@@ -1,4 +1,9 @@
 package main.homework9.task4;
 
-public class Food {
+public abstract class Food {
+    protected int cookingTime;
+
+    public int getCookingTime() {
+        return cookingTime;
+    }
 }
