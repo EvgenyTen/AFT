@@ -16,6 +16,6 @@ public class Cooker {
     public int  getTotalSize() {
         return foodToCook.size();
     }
-    public void addFood(Food food) foodToCook.add(food);
-    public void clear() foodToCook.clear();
+    public void addFood(Food food){foodToCook.add(food);}
+    public void clear() {foodToCook.clear();}
 }
