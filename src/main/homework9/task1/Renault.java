@@ -1,4 +1,4 @@
 package main.homework9.task1;
 
-public class Renault {
+public class Renault extends RegularType {
 }
