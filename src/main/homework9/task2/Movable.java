@@ -1,4 +1,5 @@
 package main.homework9.task2;
 
-public class Movable {
+public interface Movable {
+    void move();
 }
