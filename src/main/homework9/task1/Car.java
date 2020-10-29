@@ -1,4 +1,4 @@
 package main.homework9.task1;
 
-public class Car {
+public abstract class Car {
 }
