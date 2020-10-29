@@ -1,4 +1,5 @@
 package main.homework9.task3;
 
-public class FigureArea {
+public interface FigureArea {
+    double getArea();
 }
