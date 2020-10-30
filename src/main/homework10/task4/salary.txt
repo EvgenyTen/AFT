@@ -1,0 +1,12 @@
+Зарплатная ведомость.
+uuid: 5d8fb71e-b316-4595-8c0f-528c07dcd5a5
+
+Время операции: 31.10.2020 21:40:42.
+
+Список сотрудников:
+AutoLfYxWXvQdllCN AutoFjVLayymCGPXq, 4399 814821, 25879,81
+AutoLuyDwuHmpbiLd AutoFXiIrAcNLsUhQ, 0686 510530, 32122,38
+AutoLXkHqOXOTeMsk AutoFpREbYOaYzqjf, 5838 723265, 35952,28
+AutoLhkwOyeLYcApb AutoFvAbNtMvqrDYl, 1161 074417, 40866,92
+AutoLFzxjvlCdYwyp AutoFCwuRZwTsETYG, 8681 279141, 44701,73
+Общая сумма: 179523,12
