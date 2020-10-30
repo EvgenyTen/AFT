@@ -103,6 +103,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -127,7 +128,7 @@
       <recent name="D:\AFT\src\main\homework6\task2\generators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.Application (1)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.homework10.task1.Application" />
       <module name="AFT" />
@@ -195,9 +196,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application (5)" />
-        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application (4)" />
         <item itemvalue="Application.Application (2)" />
       </list>
@@ -211,13 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00077" summary="homework 7 alltask partialy or partially working">
-      <created>1603205659316</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1603205659316</updated>
     </task>
     <task id="LOCAL-00078" summary="homework 7 alltask partialy or partially working">
       <created>1603390003682</created>
@@ -555,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604084200796</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="homework 10 task 2">
+      <created>1604084371329</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1604084371329</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -722,6 +723,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604084632998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604084632998" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604084204543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
