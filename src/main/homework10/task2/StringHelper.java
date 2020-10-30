@@ -9,7 +9,7 @@ public class StringHelper {
         for (int i = 0; i < length; i++)
             builder.append(Config.LINES_PATTERN.charAt(new Random().nextInt(Config.LINES_PATTERN.length())));
         String result = builder.toString();
-        System.out.println(Config.LINES_MESSAGE, result);
+        System.out.printf(Config.LINES_MESSAGE, result);
         return result;
     }
 }
