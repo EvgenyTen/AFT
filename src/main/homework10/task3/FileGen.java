@@ -50,7 +50,7 @@ public class FileGen implements Generator {
 
     private void initFieldsFromProperties() {
         properties = new Properties();
-        String path = "src\\main\\java\\homework_solution\\lesson10\\task3\\application.properties";
+        String path = "src\\main\\homework10\\task3\\application.properties";
         try {
             properties.load(new FileReader(path));
         } catch (IOException e) {
