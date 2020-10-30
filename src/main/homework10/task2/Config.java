@@ -5,8 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
-import static java.lang.System.getProperty;
-import static jdk.internal.net.http.common.Utils.getIntegerProperty;
 
 public class Config {
     public  static Properties properties=new Properties();
