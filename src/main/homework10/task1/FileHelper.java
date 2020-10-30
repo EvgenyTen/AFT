@@ -22,46 +22,47 @@ public class FileHelper {
             String value = parse(line.split("=")[1]);
             content.put(key, value);
         }
-            return content;
+        return content;
 
-        }
-        private static String parse (String value){
-            String defaultValue = "\"" + value + "\"";
-            if (value.equals("null")) return null;
-            if (value.equals("")) return "[]";
-            if (value.contains(".")) {
-                try {
-                    return String.valueOf(Double.parseDouble(value));
-                } catch (NumberFormatException notFloatException) {
-                    return defaultValue;
-                }
-            }
+    }
 
+    private static String parse(String value) {
+        String defaultValue = "\"" + value + "\"";
+        if (value.equals("null")) return null;
+        if (value.equals("")) return "[]";
+        if (value.contains(".")) {
             try {
-                return String.valueOf(Long.parseLong(value));
-            } catch (NumberFormatException ignore) {
+                return String.valueOf(Double.parseDouble(value));
+            } catch (NumberFormatException notFloatException) {
+                return defaultValue;
             }
-            return value.equals("true")||value.equals(("false"))?value:defaultValue;
         }
 
-        public static void saveFile (File file, Map < String, String > content){
-            StringBuilder sb = new StringBuilder("{");
-            sb.append(System.lineSeparator());
-            for (Map.Entry<String, String> entry : content.entrySet()) {
-                sb.append(String.format(" \"%s\":%s,%n", entry.getKey(), entry.getValue()));
-            }
-            int lastComma = sb.lastIndexOf(",");
-            sb.replace(lastComma, lastComma + 1, "");
-            sb.append("}");
-            String output = sb.toString();
-            System.out.println(output);
-            try {
-                FileWriter writer = new FileWriter(file);
-                writer.write(output);
-                writer.flush();
+        try {
+            return String.valueOf(Long.parseLong(value));
+        } catch (NumberFormatException ignore) {
+        }
+        return value.equals("true") || value.equals(("false")) ? value : defaultValue;
+    }
 
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+    public static void saveFile(File file, Map<String, String> content) {
+        StringBuilder sb = new StringBuilder("{");
+        sb.append(System.lineSeparator());
+        for (Map.Entry<String, String> entry : content.entrySet()) {
+            sb.append(String.format(" \"%s\":%s,%n", entry.getKey(), entry.getValue()));
+        }
+        int lastComma = sb.lastIndexOf(",");
+        sb.replace(lastComma, lastComma + 1, "");
+        sb.append("}");
+        String output = sb.toString();
+        System.out.println(output);
+        try {
+            FileWriter writer = new FileWriter(file);
+            writer.write(output);
+            writer.flush();
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
+}
