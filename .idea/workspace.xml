@@ -22,29 +22,39 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 10 task 2">
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 task 4 finished">
+      <change afterPath="$PROJECT_DIR$/src/main/homework11/homework11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/homework11/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework1/task1/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework1/task1/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework1/task2/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework1/task2/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework1/task3/cetNecet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework1/task3/cetNecet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework1/task4/metr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework1/task4/metr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework1/task5/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework1/task5/Solution3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework1/task6/Logelementi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework1/task6/Logelementi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task1/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task1/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task2/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task2/Solution2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task3/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task3/Solution3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task4/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task4/Check.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task5/Transposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task5/Transposition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task6/InverseAfter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task6/InverseAfter2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task7/Age.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task7/Age.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task8/WithBreaks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task8/WithBreaks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AFT/main/homework2/task8/WithoutBreaks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AFT/main/homework2/task8/WithoutBreaks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework11/task1/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework11/task2/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework11/task3/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework11/task4/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework12/task1/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework12/task2/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework12/task3/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework12/task4/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework13/task1/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework13/task2/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework13/task3/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework13/task4/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework14/task1/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework14/task2/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework14/task3/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework14/task4/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework15/task1/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework15/task2/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework15/task3/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/homework15/task4/Application.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +66,9 @@
       <option value="directory" />
     </option>
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -92,15 +98,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="sortByName" value="true" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1hhKq4cC5Nfud7ONWkZChHxCQYB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -114,42 +114,24 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/homework10/task3" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/homework6/task2/generators" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Evgeny\IdeaProjects\AFT\src\main\homework10\task3" />
-      <recent name="C:\Users\Evgeny\IdeaProjects\AFT\src\main\homework10\task1" />
-      <recent name="C:\Users\Evgeny\IdeaProjects\AFT\src\main\homework10" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AFT\src\main\homework6\task2\generators" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.homework8.task3" />
       <recent name="main.homework6.task4" />
       <recent name="main.homework3.task3" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.homework15.task4" />
-      <recent name="main.homework15.task3" />
-      <recent name="main.homework15.task2" />
-      <recent name="main.homework15.task1" />
-      <recent name="main.homework14.task4" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Evgeny\IdeaProjects\AFT\src\main\homework10\task3" />
-      <recent name="D:\AFT\src\main\homework6\task2\generators" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.Application (1)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework10.task1.Application" />
+      <option name="MAIN_CLASS_NAME" value="main.homework6.task2.Application" />
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.homework10.task1.*" />
+          <option name="PATTERN" value="main.homework6.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +140,24 @@
       </method>
     </configuration>
     <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework9.task3.Application" />
+      <option name="MAIN_CLASS_NAME" value="main.homework6.task3.Application" />
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.homework9.task3.*" />
+          <option name="PATTERN" value="main.homework6.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.homework6.task4.Application" />
+      <module name="AFT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.homework6.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,24 +166,11 @@
       </method>
     </configuration>
     <configuration name="Application (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework9.task4.Application" />
+      <option name="MAIN_CLASS_NAME" value="main.homework4.task2.Application" />
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.homework9.task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework10.task2.Application" />
-      <module name="AFT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.homework10.task2.*" />
+          <option name="PATTERN" value="main.homework4.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +179,11 @@
       </method>
     </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.homework10.task3.Application" />
+      <option name="MAIN_CLASS_NAME" value="homework_solution.lesson6.task3.Application" />
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.homework10.task3.*" />
+          <option name="PATTERN" value="homework_solution.lesson6.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,10 +193,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application (1)" />
-        <item itemvalue="Application.Application (5)" />
         <item itemvalue="Application.Application (4)" />
+        <item itemvalue="Application.Application (3)" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application (2)" />
       </list>
     </recent_temporary>
@@ -228,350 +210,350 @@
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
     </task>
-    <task id="LOCAL-00079" summary="homework 7 alltask partialy or partially working">
-      <created>1603390121175</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
+    <task id="LOCAL-00024" summary="homework 3 after 5 pravki">
+      <created>1601551191222</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1603390121175</updated>
+      <updated>1601551191222</updated>
     </task>
-    <task id="LOCAL-00080" summary="homework 7 alltask partialy or partially working">
-      <created>1603390553750</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
+    <task id="LOCAL-00025" summary="homework 4">
+      <created>1601564351657</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1603390553750</updated>
+      <updated>1601564351657</updated>
     </task>
-    <task id="LOCAL-00081" summary="homework 7 alltask partialy or partially working">
-      <created>1603392500767</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
+    <task id="LOCAL-00026" summary="homework 4">
+      <created>1601565066568</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1603392500767</updated>
+      <updated>1601565066568</updated>
     </task>
-    <task id="LOCAL-00082" summary="homework 7 alltask partialy or partially working">
-      <created>1603397334059</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
+    <task id="LOCAL-00027" summary="homework 4 after 1">
+      <created>1601575101479</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1603397334059</updated>
+      <updated>1601575101479</updated>
     </task>
-    <task id="LOCAL-00083" summary="homework 7 alltask partialy or partially working">
-      <created>1603397531900</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
+    <task id="LOCAL-00028" summary="homework 4 after 1">
+      <created>1601577069094</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1603397531900</updated>
+      <updated>1601577069094</updated>
     </task>
-    <task id="LOCAL-00084" summary="homework 7 alltask partialy or partially working">
-      <created>1603397821946</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
+    <task id="LOCAL-00029" summary="homework 4 after 2">
+      <created>1601614095716</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1603397821946</updated>
+      <updated>1601614095716</updated>
     </task>
-    <task id="LOCAL-00085" summary="homework 7 alltask partialy or partially working">
-      <created>1603482647647</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
+    <task id="LOCAL-00030" summary="homework 4 after 2">
+      <created>1601614139634</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1603482647647</updated>
+      <updated>1601614139634</updated>
     </task>
-    <task id="LOCAL-00086" summary="homework 7 alltask partialy or partially working">
-      <created>1603482755243</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
+    <task id="LOCAL-00031" summary="homework 4 after 2">
+      <created>1601660935987</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1603482755243</updated>
+      <updated>1601660935987</updated>
     </task>
-    <task id="LOCAL-00087" summary="homework 7 alltask partialy or partially working">
-      <created>1603484232587</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
+    <task id="LOCAL-00032" summary="homework 4 after task  3">
+      <created>1601663152022</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1603484232587</updated>
+      <updated>1601663152022</updated>
     </task>
-    <task id="LOCAL-00088" summary="homework 7 alltask partialy or partially working">
-      <created>1603485457390</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
+    <task id="LOCAL-00033" summary="homework 4 after task  3">
+      <created>1601663580410</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1603485457390</updated>
+      <updated>1601663580410</updated>
     </task>
-    <task id="LOCAL-00089" summary="homework 7 -1.3.4">
-      <created>1603485944416</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
+    <task id="LOCAL-00034" summary="homework 4 after task  4">
+      <created>1601738888329</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1603485944416</updated>
+      <updated>1601738888329</updated>
     </task>
-    <task id="LOCAL-00090" summary="homework 7 -1.3.4">
-      <created>1603485970685</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
+    <task id="LOCAL-00035" summary="homework 4 after task  4">
+      <created>1601739023677</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1603485970685</updated>
+      <updated>1601739023677</updated>
     </task>
-    <task id="LOCAL-00091" summary="homework 7 -1.3.4">
-      <created>1603486233672</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
+    <task id="LOCAL-00036" summary="homework 5 after task  2">
+      <created>1601810214720</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1603486233674</updated>
+      <updated>1601810214720</updated>
     </task>
-    <task id="LOCAL-00092" summary="homework 8-start">
-      <created>1603543600365</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
+    <task id="LOCAL-00037" summary="homework 5 after task  3">
+      <created>1601810879420</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1603543600365</updated>
+      <updated>1601810879420</updated>
     </task>
-    <task id="LOCAL-00093" summary="homework 8-start">
-      <created>1603622253807</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
+    <task id="LOCAL-00038" summary="homework 5 after task  3">
+      <created>1601810888813</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1603622253807</updated>
+      <updated>1601810888813</updated>
     </task>
-    <task id="LOCAL-00094" summary="homework 8-1 done">
-      <created>1603628485845</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
+    <task id="LOCAL-00039" summary="homework 5 after task  4">
+      <created>1601812869856</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1603628485845</updated>
+      <updated>1601812869856</updated>
     </task>
-    <task id="LOCAL-00095" summary="homework 8-1 done">
-      <created>1603654096522</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
+    <task id="LOCAL-00040" summary="homework 5 after task  4">
+      <created>1601813069198</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1603654096522</updated>
+      <updated>1601813069198</updated>
     </task>
-    <task id="LOCAL-00096" summary="homework 8-1 done++">
-      <created>1603819399733</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
+    <task id="LOCAL-00041" summary="homework 5 after task  4">
+      <created>1601814220000</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1603819399733</updated>
+      <updated>1601814220000</updated>
     </task>
-    <task id="LOCAL-00097" summary="homework 8-1 done++">
-      <created>1603820344808</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
+    <task id="LOCAL-00042" summary="homework 5 after task  5">
+      <created>1601814619175</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1603820344808</updated>
+      <updated>1601814619175</updated>
     </task>
-    <task id="LOCAL-00098" summary="homework 8-1 done++">
-      <created>1603820617415</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
+    <task id="LOCAL-00043" summary="homework 6 begin">
+      <created>1602256458794</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1603820617415</updated>
+      <updated>1602256458794</updated>
     </task>
-    <task id="LOCAL-00099" summary="homework 8-1 and 3 done">
-      <created>1603821831975</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
+    <task id="LOCAL-00044" summary="homework 6 task 1 begin">
+      <created>1602256829271</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1603821831975</updated>
+      <updated>1602256829271</updated>
     </task>
-    <task id="LOCAL-00100" summary="homework 8-1 and 3 done">
-      <created>1603825637153</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
+    <task id="LOCAL-00045" summary="homework 6 task 1 begin">
+      <created>1602257668935</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1603825637153</updated>
+      <updated>1602257668935</updated>
     </task>
-    <task id="LOCAL-00101" summary="homework 8-1 ,3,4">
-      <created>1603826701183</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
+    <task id="LOCAL-00046" summary="homework 6 task 1 begin">
+      <created>1602262590810</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1603826701183</updated>
+      <updated>1602262590810</updated>
     </task>
-    <task id="LOCAL-00102" summary="homework 8 tasks 1-4">
-      <created>1603828178493</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
+    <task id="LOCAL-00047" summary="homework 6 task 1 begin">
+      <created>1602263199062</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1603828178493</updated>
+      <updated>1602263199062</updated>
     </task>
-    <task id="LOCAL-00103" summary="homework 9 start">
-      <created>1603991607236</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
+    <task id="LOCAL-00048" summary="homework 6 task 1 begin">
+      <created>1602265012322</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1603991607236</updated>
+      <updated>1602265012322</updated>
     </task>
-    <task id="LOCAL-00104" summary="homework 9 start">
-      <created>1603992187087</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
+    <task id="LOCAL-00049" summary="homework 6 task 1 begin">
+      <created>1602265771856</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1603992187087</updated>
+      <updated>1602265771856</updated>
     </task>
-    <task id="LOCAL-00105" summary="homework 9 start">
-      <created>1603992315471</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
+    <task id="LOCAL-00050" summary="homework 6 task 1 begin">
+      <created>1602266597360</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1603992315471</updated>
+      <updated>1602266597361</updated>
     </task>
-    <task id="LOCAL-00106" summary="homework 9 start">
-      <created>1603992465694</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
+    <task id="LOCAL-00051" summary="homework 6 task 1 begin">
+      <created>1602266621989</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1603992465694</updated>
+      <updated>1602266621989</updated>
     </task>
-    <task id="LOCAL-00107" summary="homework 9 start">
-      <created>1603993115712</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
+    <task id="LOCAL-00052" summary="homework 6 task 1 begin">
+      <created>1602267261203</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1603993115712</updated>
+      <updated>1602267261203</updated>
     </task>
-    <task id="LOCAL-00108" summary="homework 9 start">
-      <created>1603993879088</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
+    <task id="LOCAL-00053" summary="homework 6 task 1 begin">
+      <created>1602267416541</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1603993879105</updated>
+      <updated>1602267416541</updated>
     </task>
-    <task id="LOCAL-00109" summary="homework 9 task1">
-      <created>1603993960479</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
+    <task id="LOCAL-00054" summary="homework 6 task 1 begin">
+      <created>1602267451249</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1603993960479</updated>
+      <updated>1602267451249</updated>
     </task>
-    <task id="LOCAL-00110" summary="homework 9 task1 task 2(in the middle)">
-      <created>1603995106234</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
+    <task id="LOCAL-00055" summary="homework 6 task 1 begin">
+      <created>1602270662670</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1603995106234</updated>
+      <updated>1602270662670</updated>
     </task>
-    <task id="LOCAL-00111" summary="homework 9 task1 task 2(in the middle)">
-      <created>1603995388989</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
+    <task id="LOCAL-00056" summary="homework 6 task 1 begin">
+      <created>1602270888428</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1603995388989</updated>
+      <updated>1602270888428</updated>
     </task>
-    <task id="LOCAL-00112" summary="homework 9 task1 task 2(in the middle)">
-      <created>1603997011510</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
+    <task id="LOCAL-00057" summary="homework 6 task 1 begin">
+      <created>1602271001550</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
       <option name="project" value="LOCAL" />
-      <updated>1603997011510</updated>
+      <updated>1602271001550</updated>
     </task>
-    <task id="LOCAL-00113" summary="homework 9 task2">
-      <created>1603999773481</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
+    <task id="LOCAL-00058" summary="homework 6 task 1 begin">
+      <created>1602271074358</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
       <option name="project" value="LOCAL" />
-      <updated>1603999773481</updated>
+      <updated>1602271074358</updated>
     </task>
-    <task id="LOCAL-00114" summary="homework 9 task3">
-      <created>1604004549519</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
+    <task id="LOCAL-00059" summary="homework 6 task 1 finished">
+      <created>1602271695109</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
       <option name="project" value="LOCAL" />
-      <updated>1604004549519</updated>
+      <updated>1602271695109</updated>
     </task>
-    <task id="LOCAL-00115" summary="homework 9 task4">
-      <created>1604007103777</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
+    <task id="LOCAL-00060" summary="homework 6 task 1 finished">
+      <created>1602327689714</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
       <option name="project" value="LOCAL" />
-      <updated>1604007103777</updated>
+      <updated>1602327689714</updated>
     </task>
-    <task id="LOCAL-00116" summary="homework 10 start">
-      <created>1604073942224</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
+    <task id="LOCAL-00061" summary="homework 6 task 1 finished">
+      <created>1602328914413</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
       <option name="project" value="LOCAL" />
-      <updated>1604073942225</updated>
+      <updated>1602328914413</updated>
     </task>
-    <task id="LOCAL-00117" summary="homework 10 start">
-      <created>1604076214193</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
+    <task id="LOCAL-00062" summary="homework 6 task 2 finished">
+      <created>1602329130641</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
       <option name="project" value="LOCAL" />
-      <updated>1604076214193</updated>
+      <updated>1602329130641</updated>
     </task>
-    <task id="LOCAL-00118" summary="homework 10 task 1">
-      <created>1604077379569</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
+    <task id="LOCAL-00063" summary="homework 6 task 2 finished">
+      <created>1602333724576</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
       <option name="project" value="LOCAL" />
-      <updated>1604077379569</updated>
+      <updated>1602333724576</updated>
     </task>
-    <task id="LOCAL-00119" summary="homework 10 task 1">
-      <created>1604078308416</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
+    <task id="LOCAL-00064" summary="homework 6 task 2 finished">
+      <created>1602334340511</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
       <option name="project" value="LOCAL" />
-      <updated>1604078308416</updated>
+      <updated>1602334340511</updated>
     </task>
-    <task id="LOCAL-00120" summary="homework 10 task 1">
-      <created>1604081146964</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
+    <task id="LOCAL-00065" summary="homework 6 task 3 finished">
+      <created>1602335058807</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
       <option name="project" value="LOCAL" />
-      <updated>1604081146964</updated>
+      <updated>1602335058807</updated>
     </task>
-    <task id="LOCAL-00121" summary="homework 10 task 1">
-      <created>1604081279243</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
+    <task id="LOCAL-00066" summary="homework 6 task 3 finished">
+      <created>1602335910029</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
       <option name="project" value="LOCAL" />
-      <updated>1604081279243</updated>
+      <updated>1602335910029</updated>
     </task>
-    <task id="LOCAL-00122" summary="homework 10 task 2">
-      <created>1604081436154</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
+    <task id="LOCAL-00067" summary="homework 6 task 4 finished">
+      <created>1602339554288</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
       <option name="project" value="LOCAL" />
-      <updated>1604081436154</updated>
+      <updated>1602339554288</updated>
     </task>
-    <task id="LOCAL-00123" summary="homework 10 task 2">
-      <created>1604081634810</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
+    <task id="LOCAL-00068" summary="homework 6 task 4 finished">
+      <created>1602340818586</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1604081634810</updated>
+      <updated>1602340818586</updated>
     </task>
-    <task id="LOCAL-00124" summary="homework 10 task 2">
-      <created>1604084075730</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
+    <task id="LOCAL-00069" summary="homework 6 task 4 finished">
+      <created>1602351091595</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1604084075730</updated>
+      <updated>1602351091595</updated>
     </task>
-    <task id="LOCAL-00125" summary="homework 10 task 2">
-      <created>1604084200796</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
+    <task id="LOCAL-00070" summary="homework 6 task 4 finished">
+      <created>1602355565761</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1604084200796</updated>
+      <updated>1602355565761</updated>
     </task>
-    <task id="LOCAL-00126" summary="homework 10 task 2">
-      <created>1604084371329</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
+    <task id="LOCAL-00071" summary="homework 6 task 4 finished">
+      <created>1602356173236</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1604084371329</updated>
+      <updated>1602356173236</updated>
     </task>
-    <task id="LOCAL-00127" summary="homework 10 task 2">
-      <created>1604084639910</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
+    <task id="LOCAL-00072" summary="homework 6 task 4 finished">
+      <created>1602429076717</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
       <option name="project" value="LOCAL" />
-      <updated>1604084639910</updated>
+      <updated>1602429076717</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -625,6 +607,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="optimizacija po tasku 6" />
+    <MESSAGE value="homework 2" />
+    <MESSAGE value="homework 2update (exclude)" />
+    <MESSAGE value="homework 2 after last update" />
+    <MESSAGE value="homework 3 after after task 1" />
+    <MESSAGE value="homework 3 after after task 2-bez sortirovki" />
+    <MESSAGE value="homework 3 after after task 3" />
+    <MESSAGE value="homework 3 in the task 4" />
+    <MESSAGE value="homework 3 after 5" />
+    <MESSAGE value="homework 3 after 5 pravki" />
+    <MESSAGE value="homework 4" />
+    <MESSAGE value="homework 4 after 1" />
+    <MESSAGE value="homework 4 after 2" />
+    <MESSAGE value="homework 4 after task  3" />
+    <MESSAGE value="homework 4 after task  4" />
+    <MESSAGE value="homework 5 after task  2" />
+    <MESSAGE value="homework 5 after task  3" />
+    <MESSAGE value="homework 5 after task  4" />
     <MESSAGE value="homework 5 after task  5" />
     <MESSAGE value="homework 6 begin" />
     <MESSAGE value="homework 6 task 1 begin" />
@@ -632,137 +632,77 @@
     <MESSAGE value="homework 6 task 2 finished" />
     <MESSAGE value="homework 6 task 3 finished" />
     <MESSAGE value="homework 6 task 4 finished" />
-    <MESSAGE value="homework 7 begin" />
-    <MESSAGE value="homework 7 alltask partialy or partially working" />
-    <MESSAGE value="homework 7 -1.3.4" />
-    <MESSAGE value="homework 8-start" />
-    <MESSAGE value="homework 8-1 done" />
-    <MESSAGE value="homework 8-1 done++" />
-    <MESSAGE value="homework 8-1 and 3 done" />
-    <MESSAGE value="homework 8-1 ,3,4" />
-    <MESSAGE value="homework 8 tasks 1-4" />
-    <MESSAGE value="homework 9 start" />
-    <MESSAGE value="homework 9 task1" />
-    <MESSAGE value="homework 9 task1 task 2(in the middle)" />
-    <MESSAGE value="homework 9 task2" />
-    <MESSAGE value="homework 9 task3" />
-    <MESSAGE value="homework 9 task4" />
-    <MESSAGE value="homework 10 start" />
-    <MESSAGE value="homework 10 task 1" />
-    <MESSAGE value="homework 10 task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 10 task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 6 task 4 finished" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="712" y="344" key="#Notifications" timestamp="1604084300631">
+    <state x="586" y="198" key="#Inspections" timestamp="1604432364853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="712" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604084300631" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1603388944709">
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604432364853" />
+    <state x="712" y="344" key="#Notifications" timestamp="1600605854442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603388944709" />
-    <state x="730" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603628175538">
+    <state x="712" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1600605854442" />
+    <state x="617" y="75" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602336301620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="730" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603628175538" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1604006956434">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604006956434" />
-    <state x="664" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1603389659262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="664" y="297" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603389659262" />
-    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603389727005">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1603389727005" />
-    <state x="617" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603037319125">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="617" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603037319125" />
     <state x="617" y="75" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602336301620" />
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602338588434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602338588434" />
-    <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1604080921910">
+    <state width="930" height="287" key="GridCell.Tab.0.bottom" timestamp="1602429091456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604080921910" />
-    <state x="689" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603999735084">
+    <state width="930" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="930" height="287" key="GridCell.Tab.0.center" timestamp="1602429091456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1603999735084" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602761578967">
+    <state width="930" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="930" height="287" key="GridCell.Tab.0.left" timestamp="1602429091456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602761578967" />
-    <state width="938" height="266" key="GridCell.Tab.0.bottom" timestamp="1604084819120">
+    <state width="930" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="930" height="287" key="GridCell.Tab.0.right" timestamp="1602429091456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558922" />
-    <state width="938" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604084819120" />
-    <state width="938" height="266" key="GridCell.Tab.0.center" timestamp="1604084819120">
+    <state width="930" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558921" />
-    <state width="938" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604084819120" />
-    <state width="938" height="266" key="GridCell.Tab.0.left" timestamp="1604084819120">
+    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602267178936" />
+    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558921" />
-    <state width="938" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604084819120" />
-    <state width="938" height="266" key="GridCell.Tab.0.right" timestamp="1604084819120">
+    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602267178936" />
+    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603042558922" />
-    <state width="938" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604084819120" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604000335979">
+    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602267178936" />
+    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1602267178936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604000335979" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604000335979">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604000335979" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604000335979">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604000335979" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604000335979">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604000335979" />
+    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602267178936" />
     <state x="806" y="240" key="RollbackChangesDialog" timestamp="1600606106516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1604084701124">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602429084336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604084701124" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604084204543">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603205664339" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604084204543" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602429084336" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600605256534" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604005529826">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600607054954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604005529826" />
-    <state x="527" y="249" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603999749020">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600607054954" />
+    <state x="551" y="180" key="new project wizard" timestamp="1604432243465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="527" y="249" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1603999749020" />
-    <state x="551" y="130" key="new project wizard" timestamp="1602761607302">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="551" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602761607302" />
+    <state x="551" y="180" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604432243465" />
     <state x="803" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1602338877973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -771,16 +711,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="716" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601111086574" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603628316494">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602266662116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603628316494" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="java-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602266662116" />
   </component>
 </project>
