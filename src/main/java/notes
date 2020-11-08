@@ -1,0 +1,48 @@
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        if(!Objects.equals(surname,person.surname)) return false;
+        return Objects.equals(name,person.name);
+    }
+
+    @Override
+    public int hashCode() {
+       int result=surname!=null?surname.hashCode():0;
+       result=31*result+(name!=null?name.hashCode():0);
+       return result;
+    }
+
+    @Override
+    public String toString() {
+        return  String.format("Фамилия : %s  , Имя : s%",surname,name);
+    }
+
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <project xmlns="http://maven.apache.org/POM/4.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+
+        <groupId>org.example</groupId>
+        <artifactId>homework11</artifactId>
+        <version>1.0-SNAPSHOT</version>
+
+        <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-api</artifactId>
+                <version>5.7.0</version>
+                <scope>homework11</scope>
+            </dependency>
+
+
+
+
+        </dependencies>
+
+
+    </project
