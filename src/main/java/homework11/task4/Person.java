@@ -6,14 +6,14 @@ import java.util.Objects;
 public class Person {
     private String surname;
     private String name;
-    private String patronymic;
+    private String secondName;
     private Date birthDate;
     private Passport passport;
 
-    public Person(String lastName, String name, String patronymic, Date birthDate, Passport passport) {
+    public Person(String lastName, String name, String secondName, Date birthDate, Passport passport) {
         this.surname = lastName;
         this.name = name;
-        this.patronymic = patronymic;
+        this.secondName = secondName;
         this.birthDate = birthDate;
         this.passport = passport;
     }
@@ -26,8 +26,8 @@ public class Person {
         return name;
     }
 
-    public String getPatronymic() {
-        return patronymic;
+    public String getSecondName() {
+        return secondName;
     }
 
     public Passport getPassport() {
@@ -47,7 +47,7 @@ public class Person {
 
         if (!Objects.equals(surname, person.surname)) return false;
         if (!Objects.equals(name, person.name)) return false;
-        if (!Objects.equals(patronymic, person.patronymic)) return false;
+        if (!Objects.equals(secondName, person.secondName)) return false;
         if (!Objects.equals(birthDate, person.birthDate)) return false;
         return Objects.equals(passport, person.passport);
     }
@@ -56,7 +56,7 @@ public class Person {
     public int hashCode() {
         int result = surname != null ? surname.hashCode() : 0;
         result = 31 * result + (name != null ? name.hashCode() : 0);
-        result = 31 * result + (patronymic != null ? patronymic.hashCode() : 0);
+        result = 31 * result + (secondName != null ? secondName.hashCode() : 0);
         result = 31 * result + (birthDate != null ? birthDate.hashCode() : 0);
         result = 31 * result + (passport != null ? passport.hashCode() : 0);
         return result;
