@@ -1,0 +1,5 @@
+package homework8.task4;
+
+public interface Validatable {
+    void validate();
+}
