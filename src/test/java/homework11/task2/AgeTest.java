@@ -7,38 +7,26 @@ public class AgeTest {
     @Test
     public void age1() {
         int age=0;
-        try {
-            Human human = new Human();
-            human.setAge(age);
-            int result = human.getAge();
-            Assertions.assertEquals(age,result);
-        } catch (IllegalArgumentException exception) {
-            Assertions.fail("Поле не установлено");
-        }
+        Human human = new Human();
+        human.setAge(age);
+        int result = human.getAge();
+        Assertions.assertEquals(age,result);
     }
     @Test
     public void age2() {
         int age=60;
-        try {
-            Human human = new Human();
-            human.setAge(age);
-            int result = human.getAge();
-            Assertions.assertEquals(age,result);
-        } catch (IllegalArgumentException exception) {
-            Assertions.fail("Поле не установлено");
-        }
+       Human human = new Human();
+       human.setAge(age);
+       int result = human.getAge();
+       Assertions.assertEquals(age,result);
     }
     @Test
     public void age3() {
-        int age=120;
-        try {
-            Human human = new Human();
-            human.setAge(age);
-            int result = human.getAge();
-            Assertions.assertEquals(age,result);
-        } catch (IllegalArgumentException exception) {
-            Assertions.fail("Поле не установлено");
-        }
+        int age = 120;
+        Human human = new Human();
+        human.setAge(age);
+        int result = human.getAge();
+        Assertions.assertEquals(age, result);
     }
     @Test
     public void age4() {

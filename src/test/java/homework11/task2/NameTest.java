@@ -7,16 +7,11 @@ public class NameTest {
     @Test
     public void name1() {
         String name="Иван";
-        try {
-            Human human = new Human();
-            human.setName(name);
-            String result = human.getName();
-            Assertions.assertEquals(name,result);
-        } catch (IllegalArgumentException exception) {
-            String expected = "Некорректное имя: "+name;
-            Assertions.fail("Поле не установлено");
+        Human human = new Human();
+        human.setName(name);
+        String result = human.getName();
+        Assertions.assertEquals(name,result);
         }
-    }
     @Test
     public void name2() {
         String name="Ив";
