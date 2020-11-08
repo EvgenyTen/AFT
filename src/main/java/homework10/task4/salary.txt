@@ -1,12 +1,12 @@
 Зарплатная ведомость.
-uuid: 5d8fb71e-b316-4595-8c0f-528c07dcd5a5
+uuid: e89b5f7a-6d6c-48ab-a4ce-25ecce5560c4
 
-Время операции: 31.10.2020 21:40:42.
+Время операции: 09.11.2020 17:00:29.
 
 Список сотрудников:
-AutoLfYxWXvQdllCN AutoFjVLayymCGPXq, 4399 814821, 25879,81
-AutoLuyDwuHmpbiLd AutoFXiIrAcNLsUhQ, 0686 510530, 32122,38
-AutoLXkHqOXOTeMsk AutoFpREbYOaYzqjf, 5838 723265, 35952,28
-AutoLhkwOyeLYcApb AutoFvAbNtMvqrDYl, 1161 074417, 40866,92
-AutoLFzxjvlCdYwyp AutoFCwuRZwTsETYG, 8681 279141, 44701,73
-Общая сумма: 179523,12
+AutoLVFbwJIlAeFdV AutoFEffoZSzJQdaX, 5656 854409, 41131,42
+AutoLbRAmYxnhpMyY AutoFjYwagsPIHdiH, 1135 902466, 23375,97
+AutoLNjXIiyBRQSvW AutoFFyylLsugVWOg, 5455 405789, 24305,77
+AutoLXcCMkmvsHheI AutoFIxwiZZScDOCi, 9845 669488, 17774,23
+AutoLnJDTeWCFDYnD AutoFWwORMoszOeDQ, 9943 560386, 45387,66
+Общая сумма: 151975,05

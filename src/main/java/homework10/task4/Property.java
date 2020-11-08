@@ -21,7 +21,7 @@ public class Property {
     static {
         Properties props = new Properties();
         try {
-            props.load(new FileReader("src\\main\\homework10\\task4\\application.properties"));
+            props.load(new FileReader("src\\main\\java\\homework10\\task4\\application.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
