@@ -29,32 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 6 task 4 finished">
-      <change afterPath="$PROJECT_DIR$/src/main/homework11/homework11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/homework11/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 11-task 0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework11/task1/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework11/task2/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework11/task3/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework11/task4/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework12/task1/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework12/task2/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework12/task3/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework12/task4/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework13/task1/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework13/task2/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework13/task3/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework13/task4/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework14/task1/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework14/task2/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework14/task3/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework14/task4/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework15/task1/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework15/task2/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework15/task3/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/homework15/task4/Application.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00024" summary="homework 3 after 5 pravki">
-      <created>1601551191222</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1601551191222</updated>
     </task>
     <task id="LOCAL-00025" summary="homework 4">
       <created>1601564351657</created>
@@ -553,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602429076717</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="homework 6 task 4 finished">
+      <created>1604432406196</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1604432406196</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -687,9 +663,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602429084336">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604432823566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604432823566" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602429084336" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
