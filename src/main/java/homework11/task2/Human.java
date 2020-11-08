@@ -3,6 +3,7 @@ package homework11.task2;
 public class Human {
     private String name;
     private int age;
+
     public void setName(String name){
       String regex="^[А-Я][а-я]{2,11}$";
       if(name.matches(regex)) this.name=name;
