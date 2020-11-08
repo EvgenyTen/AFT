@@ -30,16 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 11-task 0">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework11/task1/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AFT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AFT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/task4/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/task4/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/task4/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/task4/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/task4/cash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/task4/cash.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/task4/salary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/task4/salary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework11/homework11.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework11/task 1/Calculator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00025" summary="homework 4">
-      <created>1601564351657</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1601564351657</updated>
     </task>
     <task id="LOCAL-00026" summary="homework 4">
       <created>1601565066568</created>
@@ -542,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604847191345</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="homework 11-task 0">
+      <created>1604847796859</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1604847796859</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -684,9 +676,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602429084336">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604847802126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604847802126" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602429084336" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
