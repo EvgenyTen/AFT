@@ -1,4 +1,5 @@
 package homework12.task1;
+
 import homework12.task1.helpers.XmlHelper;
 import homework12.task1.model.House;
 import org.junit.jupiter.api.Assertions;
@@ -6,6 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class XmlSerializeTest {
     private final XmlHelper help=new XmlHelper();
@@ -16,7 +18,7 @@ public class XmlSerializeTest {
     void xmlSerializationTest () throws IOException{
         House house =new House().generate();
         String actual=help.serialize(house);
-        String expected= Files.readAllLines(paths.get(PATH)).get(0);
+        String expected= Files.readAllLines(Paths.get(PATH)).get(0);
         Assertions.assertEquals(expected,actual);
     }
 }
