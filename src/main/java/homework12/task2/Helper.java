@@ -33,34 +33,35 @@ public class Helper {
         }
         return array.toString();
     }
-    public static String getXmlFromXls(String path,String sheetName) throws IOException{
-        InputStream stream=new FileInputStream(new File(path));
-        Workbook workbook=new XSSFWorkbook(stream);
-        Sheet sheet=workbook.getSheet(sheetName);
-        final List<Map<String,String>> data=getDataFromSheet(sheet);
-        XmlMapper mapper=new XmlMapper();
-        return  mapper.writeValueAsString(data);
+
+    public static String getXmlFromXls(String path, String sheetName) throws IOException {
+        InputStream stream = new FileInputStream(new File(path));
+        Workbook workbook = new XSSFWorkbook(stream);
+        Sheet sheet = workbook.getSheet(sheetName);
+        final List<Map<String, String>> data = getDataFromSheet(sheet);
+        XmlMapper mapper = new XmlMapper();
+        return mapper.writeValueAsString(data);
     }
 
     private static List<Map<String, String>> getDataFromSheet(Sheet sheet) {
-            int index=0;
-            final List<String> keys=new ArrayList<>();
-            final List<Map<String,String>> data =new ArrayList<>();
-            Row firstRow=sheet.getRow(0);
-            for (Cell firstRowCell:firstRow) keys.add(firstRowCell.getStringCellValue());
-            for (Row row:sheet) {
-                if (index++!=0){
-                    int keyIndex=0;
-                    Map<String,String> currentObject=new TreeMap<>();
-                    for (Cell cell:row) {
-                        String key=keys.get(keyIndex++);
-                        String value=cell.getStringCellValue();
-                        currentObject.put(key,value);
-                    }
-                    data.add(currentObject);
+        int index = 0;
+        final List<String> keys = new ArrayList<>();
+        final List<Map<String, String>> data = new ArrayList<>();
+        Row firstRow = sheet.getRow(0);
+        for (Cell firstRowCell : firstRow) keys.add(firstRowCell.getStringCellValue());
+        for (Row row : sheet) {
+            if (index++ != 0) {
+                int keyIndex = 0;
+                Map<String, String> currentObject = new TreeMap<>();
+                for (Cell cell : row) {
+                    String key = keys.get(keyIndex++);
+                    String value = cell.getStringCellValue();
+                    currentObject.put(key, value);
                 }
+                data.add(currentObject);
             }
-                return data;
-            }
+        }
+        return data;
+    }
 }
 

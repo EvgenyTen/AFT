@@ -5,20 +5,21 @@ import homework12.task1.model.House;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class XmlSerializeTest {
-    private final XmlHelper help=new XmlHelper();
-    private final String PATH="src/test/java/homework12/task1/files/expected_xml.txt";
+    private final XmlHelper help = new XmlHelper();
+    private final String PATH = "src/test/java/homework12/task1/files/expected_xml.txt";
 
     @Test
     @DisplayName("Object Serialization Test")
-    void xmlSerializationTest () throws IOException{
-        House house =new House().generate();
-        String actual=help.serialize(house);
-        String expected= Files.readAllLines(Paths.get(PATH)).get(0);
-        Assertions.assertEquals(expected,actual);
+    void xmlSerializationTest() throws IOException {
+        House house = new House().generate();
+        String actual = help.serialize(house);
+        String expected = Files.readAllLines(Paths.get(PATH)).get(0);
+        Assertions.assertEquals(expected, actual);
     }
 }
