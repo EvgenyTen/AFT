@@ -1,12 +1,13 @@
 package homework12.task1.helpers;
-
 import com.google.gson.Gson;
-import homework10.task4.Generatable;
+import homework12.task1.model.Generatable;
 
 public class JsonHelper implements SerializeHelper {
     @Override
-    public Generatable deserialize(String json,Class class) return (Generatable)new Gson().fromJson(json,class);
-    @Override
-    public String serialize(Generatable object) return new Gson().toJson(object);
+    public Generatable deserialize(String json, Class classx) {return (Generatable)new Gson().fromJson(json, classx);}
 
+    @Override
+    public String serialize(homework10.task4.Generatable object) {
+        return null;
+    }
 }
