@@ -7,7 +7,7 @@ public class JsonHelper implements SerializeHelper {
     public Generatable deserialize(String json, Class classx) {return (Generatable)new Gson().fromJson(json, classx);}
 
     @Override
-    public String serialize(homework10.task4.Generatable object) {
-        return null;
+    public String serialize(Generatable object) {
+        return new Gson().toJson(object);
     }
 }
