@@ -33,10 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 12-somethere in task 1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework12/task1/JsonSerializerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/JsonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/JsonHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/SerializeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/SerializeHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/XmlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/XmlHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,7 @@
       <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework11\task4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExcelReadTest">
+  <component name="RunManager" selected="JUnit.JsonSerializerTest">
     <configuration name="AgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
@@ -159,16 +157,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonSerializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework11.task2.*" />
+          <option name="PATTERN" value="homework12.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework11.task2" />
-      <option name="MAIN_CLASS_NAME" value="homework11.task2.NameTest" />
+      <option name="PACKAGE_NAME" value="homework12.task1" />
+      <option name="MAIN_CLASS_NAME" value="homework12.task1.JsonSerializerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonSerializerTest" />
         <item itemvalue="JUnit.ExcelReadTest" />
         <item itemvalue="JUnit.RandomString" />
         <item itemvalue="JUnit.RandomInteger" />
         <item itemvalue="JUnit.AgeTest" />
-        <item itemvalue="JUnit.NameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,13 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00041" summary="homework 5 after task  4">
-      <created>1601814220000</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1601814220000</updated>
     </task>
     <task id="LOCAL-00042" summary="homework 5 after task  5">
       <created>1601814619175</created>
@@ -566,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605871592970</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="homework 12-somethere in task 1">
+      <created>1605872559815</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1605872559816</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
