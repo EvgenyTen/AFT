@@ -16,11 +16,16 @@ public class Helper {
         Workbook workbook=new XSSFWorkbook(stream);
         Sheet sheet=workbook.getSheet(sheetName);
         final List<Map<String,String>> data=getDataFromSheet(sheet);
+    }
+
+    public static String getXmlFromXls(String path, String sheetName)throws IOException{
+        InputStream stream=new FileInputStream(new File(path));
+        Workbook workbook=new XSSFWorkbook(stream);
+        Sheet sheet=workbook.getSheet(sheetName);
+        final List<Map<String,String>> data=getDataFromSheet(sheet);
         XmlMapper mapper=new XmlMapper();
         return  mapper.writeValueAsString(data);
     }
 
-    public static String getXmlFromXls(String path, String sheetName){}
-}
     private static List<Map<String, String>> getDataFromSheet(Sheet sheet) {
-    }
+    }}
