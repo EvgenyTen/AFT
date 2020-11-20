@@ -6,22 +6,22 @@ public class Mother {
     private String name;
     private Integer age;
 
+    public String getName() {
+        return name;
+    }
+
     public Mother setName(String name) {
         this.name = name;
         return this;
     }
 
+    public Integer getAge() {
+        return age;
+    }
+
     public Mother setAge(Integer age) {
         this.age = age;
         return this;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public Integer getAge() {
-        return age;
     }
 
     @Override

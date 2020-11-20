@@ -3,11 +3,11 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class Currency {
-    private Integer id;
-    private Integer version;
-    private String alphabeticCode;
-    private String numericCode;
-    private String okvName;
+    private final Integer id;
+    private final Integer version;
+    private final String alphabeticCode;
+    private final String numericCode;
+    private final String okvName;
 
     public Currency(Integer id, Integer version, String alphabeticCode, String numericCode, String okvName) {
         this.id = id;

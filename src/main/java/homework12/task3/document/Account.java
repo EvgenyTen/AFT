@@ -1,12 +1,13 @@
 package homework12.task3.document;
+
 import java.util.Objects;
 
 public class Account {
-    private Integer id;
-    private Integer version;
-    private String accountNumber;
-    private String bic;
-    private Branch branch;
+    private final Integer id;
+    private final Integer version;
+    private final String accountNumber;
+    private final String bic;
+    private final Branch branch;
 
     public Account(Integer id, Integer version, String accountNumber, String bic, Branch branch) {
         this.id = id;

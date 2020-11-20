@@ -3,8 +3,8 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class OperBranch {
-    private Branch branch;
-    private Bank bank;
+    private final Branch branch;
+    private final Bank bank;
 
     public OperBranch(Branch branch, Bank bank) {
         this.branch = branch;

@@ -3,11 +3,11 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class Status {
-    private String base;
-    private String name;
-    private Object extended;
-    private Object extendedName;
-    private Object comment;
+    private final String base;
+    private final String name;
+    private final Object extended;
+    private final Object extendedName;
+    private final Object comment;
 
     public Status(String base, String name, Object extended, Object extendedName, Object comment) {
         this.base = base;

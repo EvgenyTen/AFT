@@ -3,12 +3,12 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class IdentityDocType {
-    private Integer id;
-    private Integer version;
-    private Integer code;
-    private MultiLang name;
-    private String seriesPresence;
-    private String issueSubdivisionPresence;
+    private final Integer id;
+    private final Integer version;
+    private final Integer code;
+    private final MultiLang name;
+    private final String seriesPresence;
+    private final String issueSubdivisionPresence;
 
     public IdentityDocType(Integer id, Integer version, Integer code, MultiLang name, String seriesPresence, String issueSubdivisionPresence) {
         this.id = id;

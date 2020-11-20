@@ -4,15 +4,15 @@ import java.util.List;
 import java.util.Objects;
 
 public class Branch {
-    private Integer id;
-    private Integer version;
-    private Branch headBranch;
-    private String bic;
-    private String shortName;
-    private String timeZone;
-    private List<Object> branchAddresses;
-    private Boolean currencyTrifle;
-    private String code_TFU;
+    private final Integer id;
+    private final Integer version;
+    private final Branch headBranch;
+    private final String bic;
+    private final String shortName;
+    private final String timeZone;
+    private final List<Object> branchAddresses;
+    private final Boolean currencyTrifle;
+    private final String code_TFU;
 
     public Branch(Integer id, Integer version, Branch headBranch, String bic, String shortName, String timeZone, List<Object> branchAddresses, Boolean currencyTrifle, String code_TFU) {
         this.id = id;

@@ -3,12 +3,12 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class Cash {
-    private Integer id;
-    private Integer version;
-    private Object currencyNumericCodeIso;
-    private Double nominal;
-    private String description;
-    private Boolean isCoin;
+    private final Integer id;
+    private final Integer version;
+    private final Object currencyNumericCodeIso;
+    private final Double nominal;
+    private final String description;
+    private final Boolean isCoin;
 
     public Cash(Integer id, Integer version, Object currencyNumericCodeIso, Double nominal, String description, Boolean isCoin) {
         this.id = id;

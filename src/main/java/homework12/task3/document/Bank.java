@@ -3,12 +3,12 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class Bank {
-    private Integer id;
-    private Integer version;
-    private String bic;
-    private Object place;
-    private String name;
-    private Object placeType;
+    private final Integer id;
+    private final Integer version;
+    private final String bic;
+    private final Object place;
+    private final String name;
+    private final Object placeType;
 
     public Bank(Integer id, Integer version, String bic, Object place, String name, Object placeType) {
         this.id = id;

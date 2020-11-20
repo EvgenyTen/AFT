@@ -3,7 +3,7 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class MultiLang {
-    private String ru_RU;
+    private final String ru_RU;
 
     public MultiLang(String ru_RU) {
         this.ru_RU = ru_RU;

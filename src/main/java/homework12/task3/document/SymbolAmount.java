@@ -3,8 +3,8 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class SymbolAmount {
-    private String amount;
-    private CashSymbol cashSymbol;
+    private final String amount;
+    private final CashSymbol cashSymbol;
 
     public SymbolAmount(String amount, CashSymbol cashSymbol) {
         this.amount = amount;

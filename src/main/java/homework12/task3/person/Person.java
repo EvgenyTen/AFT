@@ -11,9 +11,17 @@ public class Person {
     private Boolean married;
     private Object dog;
 
+    public String getName() {
+        return name;
+    }
+
     public Person setName(String name) {
         this.name = name;
         return this;
+    }
+
+    public Integer getAge() {
+        return age;
     }
 
     public Person setAge(Integer age) {
@@ -21,9 +29,17 @@ public class Person {
         return this;
     }
 
+    public Mother getMother() {
+        return mother;
+    }
+
     public Person setMother(Mother mother) {
         this.mother = mother;
         return this;
+    }
+
+    public List<String> getChildren() {
+        return children;
     }
 
     public Person setChildren(List<String> children) {
@@ -31,38 +47,22 @@ public class Person {
         return this;
     }
 
+    public Boolean getMarried() {
+        return married;
+    }
+
     public Person setMarried(Boolean married) {
         this.married = married;
         return this;
     }
 
+    public Object getDog() {
+        return dog;
+    }
+
     public Person setDog(Object dog) {
         this.dog = dog;
         return this;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public Mother getMother() {
-        return mother;
-    }
-
-    public List<String> getChildren() {
-        return children;
-    }
-
-    public Boolean getMarried() {
-        return married;
-    }
-
-    public Object getDog() {
-        return dog;
     }
 
     @Override

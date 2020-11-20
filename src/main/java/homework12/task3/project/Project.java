@@ -12,9 +12,17 @@ public class Project {
     private List<Permission> permissions;
     private Project parentProject;
 
+    public Integer getId() {
+        return id;
+    }
+
     public Project setId(Integer id) {
         this.id = id;
         return this;
+    }
+
+    public String getStartDate() {
+        return startDate;
     }
 
     public Project setStartDate(String startDate) {
@@ -22,9 +30,17 @@ public class Project {
         return this;
     }
 
+    public String getEndDate() {
+        return endDate;
+    }
+
     public Project setEndDate(String endDate) {
         this.endDate = endDate;
         return this;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public Project setName(String name) {
@@ -32,9 +48,17 @@ public class Project {
         return this;
     }
 
+    public List<Integer> getChildIds() {
+        return childIds;
+    }
+
     public Project setChildIds(List<Integer> childIds) {
         this.childIds = childIds;
         return this;
+    }
+
+    public List<Permission> getPermissions() {
+        return permissions;
     }
 
     public Project setPermissions(List<Permission> permissions) {
@@ -42,37 +66,13 @@ public class Project {
         return this;
     }
 
+    public Project getParentProject() {
+        return parentProject;
+    }
+
     public Project setParentProject(Project parentProject) {
         this.parentProject = parentProject;
         return this;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public String getStartDate() {
-        return startDate;
-    }
-
-    public String getEndDate() {
-        return endDate;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public List<Integer> getChildIds() {
-        return childIds;
-    }
-
-    public List<Permission> getPermissions() {
-        return permissions;
-    }
-
-    public Project getParentProject() {
-        return parentProject;
     }
 
     @Override

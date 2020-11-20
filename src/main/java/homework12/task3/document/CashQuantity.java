@@ -3,8 +3,8 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class CashQuantity {
-    private Integer quantity;
-    private Cash cash;
+    private final Integer quantity;
+    private final Cash cash;
 
     public CashQuantity(Integer quantity, Cash cash) {
         this.quantity = quantity;

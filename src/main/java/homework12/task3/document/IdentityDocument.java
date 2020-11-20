@@ -3,15 +3,15 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class IdentityDocument {
-    private IdentityDocType identityDocType;
-    private String series;
-    private String number;
-    private String issueDate;
-    private String issuer;
-    private String issuerSubdivision;
-    private String lastName;
-    private String firstName;
-    private String middleName;
+    private final IdentityDocType identityDocType;
+    private final String series;
+    private final String number;
+    private final String issueDate;
+    private final String issuer;
+    private final String issuerSubdivision;
+    private final String lastName;
+    private final String firstName;
+    private final String middleName;
 
     public IdentityDocument(IdentityDocType identityDocType, String series, String number, String issueDate, String issuer, String issuerSubdivision, String lastName, String firstName, String middleName) {
         this.identityDocType = identityDocType;

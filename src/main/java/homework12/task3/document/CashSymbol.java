@@ -3,12 +3,12 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class CashSymbol {
-    private Integer id;
-    private Integer version;
-    private String code;
-    private String name;
-    private Boolean isExpense;
-    private Object weight;
+    private final Integer id;
+    private final Integer version;
+    private final String code;
+    private final String name;
+    private final Boolean isExpense;
+    private final Object weight;
 
     public CashSymbol(Integer id, Integer version, String code, String name, Boolean isExpense, Object weight) {
         this.id = id;

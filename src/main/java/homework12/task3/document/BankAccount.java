@@ -3,8 +3,8 @@ package homework12.task3.document;
 import java.util.Objects;
 
 public class BankAccount {
-    private Account account;
-    private Bank bank;
+    private final Account account;
+    private final Bank bank;
 
     public BankAccount(Account account, Bank bank) {
         this.account = account;
