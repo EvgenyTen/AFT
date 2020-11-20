@@ -23,27 +23,27 @@ public class JsonDeserializationTest {
     void deserializationRoomTest() throws IOException{
         String json=String.join("", Files.readAllLines(Paths.get(ROOM_PATH)));
         Room room=(Room)help.deserialize(json,Room.class);
-        Assertions.assertEquals(5,room.getWitdh());
-        Assertions.assertEquals(3,room.getHeight());
+        Assertions.assertEquals(6,room.getWitdh());
+        Assertions.assertEquals(5,room.getHeight());
     }
     @Test
     @DisplayName("Flate Deserialization")
     void deserializationFlatTest() throws IOException{
         String json=String.join("", Files.readAllLines(Paths.get(FLAT_PATH)));
         Flat flat=(Flat)help.deserialize(json, Flat.class);
-        Assertions.assertEquals(3,flat.getRooms().get(0).getWitdh());
+        Assertions.assertEquals(4,flat.getRooms().get(0).getWitdh());
         Assertions.assertEquals(3,flat.getRooms().get(0).getHeight());
-        Assertions.assertEquals(3,flat.getRooms().get(2).getWitdh());
+        Assertions.assertEquals(2,flat.getRooms().get(2).getWitdh());
         Assertions.assertEquals(3,flat.getRooms().get(2).getHeight());
     }
     @Test
-    @DisplayName("Flate Deserialization")
+    @DisplayName("House Deserialization")
     void deserializationHouseTest() throws IOException{
         String json=String.join("", Files.readAllLines(Paths.get(HOUSE_PATH)));
-        House house=(House)help.deserialize(json, Flat.class);
-        Assertions.assertEquals(3,house.getFlats().get(1).getRooms().size());
-        Assertions.assertEquals(3,house.getFlats().get(1).getRooms().get(1).getHeight());
-        Assertions.assertEquals(3,house.getFlats().get(1).getRooms().get(1).getWitdh());
+        House house=(House)help.deserialize(json, House.class);
+        Assertions.assertEquals(2,house.getFlats().get(0).getRooms().size());
+        Assertions.assertEquals(3,house.getFlats().get(0).getRooms().get(1).getHeight());
+        Assertions.assertEquals(3,house.getFlats().get(2).getRooms().get(1).getWitdh());
     }
 
 }
