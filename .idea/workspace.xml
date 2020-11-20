@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -30,9 +33,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 11-after task 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/expected_json.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/expected_xml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/flat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/flat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/house.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/house.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/room.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/room.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/JsonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/SerializeHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/model/Generatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task2/data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/person.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/project.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AFT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AFT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +70,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -104,17 +121,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/homework6/task2/generators" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework11\task4" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\homework11\src\main\java\task1" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework12.task1.helpers" />
       <recent name="main.homework6.task4" />
       <recent name="main.homework3.task3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AFT\src\main\homework6\task2\generators" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task3" />
+      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task2" />
+      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task1\files" />
+      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task1" />
+      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework11\task4" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ExcelReadTest">
@@ -211,13 +231,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00036" summary="homework 5 after task  2">
-      <created>1601810214720</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1601810214720</updated>
     </task>
     <task id="LOCAL-00037" summary="homework 5 after task  3">
       <created>1601810879420</created>
@@ -555,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604870333340</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="homework 11-after task 4">
+      <created>1605364897450</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1605364897450</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -662,25 +682,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602338588434" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604870315602">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605370567906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604870315602" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605370567906" />
     <state width="930" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604870315601">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605370567906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604870315601" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605370567906" />
     <state width="930" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604870315601">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605370567906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604870315601" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605370567906" />
     <state width="930" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604870315601">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605370567906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604870315601" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605370567906" />
     <state width="930" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604869624777">
       <screen x="0" y="0" width="1920" height="1040" />
