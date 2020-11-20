@@ -32,23 +32,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 11-after task 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/expected_json.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/expected_xml.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/flat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/flat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/house.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/house.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/room.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/files/room.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/JsonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/helpers/SerializeHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/model/Generatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task2/data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/person.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/project.json" afterDir="false" />
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 12-somethere in task 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task1/model/Flat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/model/Flat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task1/model/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/model/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task1/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task1/model/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -231,20 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00037" summary="homework 5 after task  3">
-      <created>1601810879420</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1601810879420</updated>
-    </task>
-    <task id="LOCAL-00038" summary="homework 5 after task  3">
-      <created>1601810888813</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1601810888813</updated>
     </task>
     <task id="LOCAL-00039" summary="homework 5 after task  4">
       <created>1601812869856</created>
@@ -575,7 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605364897450</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="homework 12-somethere in task 1">
+      <created>1605868601721</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1605868601722</updated>
+    </task>
+    <task id="LOCAL-00087" summary="homework 12-somethere in task 1">
+      <created>1605868680176</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1605868680177</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,7 +617,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="homework 3 after after task 2-bez sortirovki" />
     <MESSAGE value="homework 3 after after task 3" />
     <MESSAGE value="homework 3 in the task 4" />
     <MESSAGE value="homework 3 after 5" />
@@ -654,7 +641,8 @@
     <MESSAGE value="homework 11-after task 2" />
     <MESSAGE value="homework 11-after task 3" />
     <MESSAGE value="homework 11-after task 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 11-after task 4" />
+    <MESSAGE value="homework 12-somethere in task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 12-somethere in task 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604432364853">
