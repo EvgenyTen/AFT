@@ -36,12 +36,11 @@ public class Task1 {
     @Test
     @DisplayName("Task 1-Part3")
     public void partThree(){
-        long count=persons.stream()
-                .filter(person->person.getPassport()==null)
-                .filter(person->person.getProperties().size()==3)
-                .peek(person->System.out.printf("%s %s %s%n",person.getLastName(),person.getFirstName(),person.getPatronymic()))
-                .count();
-        Assertions.assertEquals(3,count);
+                 persons.stream()
+                .filter(person->person.getPassport()!=null)
+                .filter(person->person.getPassport().getSeries().startsWith("00"))
+                .limit(5)
+                .forEach(person->System.out.printf("%s %s %s%n",person.getLastName(),person.getFirstName(),person.getPatronymic()));
     }
 }
 
