@@ -32,20 +32,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 13-task 2 finished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/task3/Func.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/task3/Functions.java" afterDir="false" />
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 13-task 3 in middle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task1/Multyplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task1/Multyplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task2/AgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task2/AgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task2/NameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task2/NameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task3/RandomInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task3/RandomInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task3/RandomString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task3/RandomString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task4/ExcelReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task4/ExcelReadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework12/task3/DocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/DocumentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework12/task3/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/ProjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task1/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task1/FilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task2/Modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task2/ModifierTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,20 +213,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00063" summary="homework 6 task 2 finished">
-      <created>1602333724576</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1602333724576</updated>
-    </task>
-    <task id="LOCAL-00064" summary="homework 6 task 2 finished">
-      <created>1602334340511</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1602334340511</updated>
     </task>
     <task id="LOCAL-00065" summary="homework 6 task 3 finished">
       <created>1602335058807</created>
@@ -569,7 +543,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605953201193</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="homework 13-task 3 in middle">
+      <created>1605955089639</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1605955089640</updated>
+    </task>
+    <task id="LOCAL-00113" summary="homework 13-task 3 in middle">
+      <created>1605955816354</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1605955816354</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -623,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="homework 4 after 2" />
     <MESSAGE value="homework 4 after task  3" />
     <MESSAGE value="homework 4 after task  4" />
     <MESSAGE value="homework 5 after task  2" />
@@ -648,7 +635,8 @@
     <MESSAGE value="homework 11-task 1 in middle" />
     <MESSAGE value="homework 13-task 1 finished" />
     <MESSAGE value="homework 13-task 2 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 13-task 2 finished" />
+    <MESSAGE value="homework 13-task 3 in middle" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 13-task 3 in middle" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604432364853">
@@ -740,12 +728,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605953628093">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605955092922">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605890970300" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602429084336" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605910792034" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605955092922" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953628093" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
