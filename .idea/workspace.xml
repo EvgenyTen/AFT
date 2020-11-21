@@ -32,36 +32,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 12-task 2 finished">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/DocumentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/ProjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/files/document.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/files/person.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/files/project.json" afterDir="false" />
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 12-task 3 finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/ggjg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/task1/Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Branch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Cash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Cash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/CashQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/CashQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/CashSymbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/CashSymbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/IdentityDocType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/IdentityDocType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/IdentityDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/IdentityDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/MultiLang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/MultiLang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/OperBranch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/OperBranch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/document/SymbolAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/document/SymbolAmount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/person/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/person/Mother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/project/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/project/Permission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework12/task3/project/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework12/task3/project/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework12/task3/document.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework12/task3/person.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework12/task3/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/task4/SalaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/task4/SalaryDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/task4/StringGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/task4/StringGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework11/task2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework11/task2/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework11/task4/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework11/task4/FileHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +90,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -131,7 +109,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/homework6/task2/generators" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -247,13 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00055" summary="homework 6 task 1 begin">
-      <created>1602270662670</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1602270662670</updated>
     </task>
     <task id="LOCAL-00056" summary="homework 6 task 1 begin">
       <created>1602270888428</created>
@@ -591,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605891899722</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="homework 12-task 3 finished">
+      <created>1605910785731</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1605910785731</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,7 +623,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="homework 3 after 5" />
     <MESSAGE value="homework 3 after 5 pravki" />
     <MESSAGE value="homework 4" />
     <MESSAGE value="homework 4 after 1" />
@@ -670,7 +647,8 @@
     <MESSAGE value="homework 12-somethere in task 1" />
     <MESSAGE value="homework 12-task 1 finished" />
     <MESSAGE value="homework 12-task 2 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 12-task 2 finished" />
+    <MESSAGE value="homework 12-task 3 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 12-task 3 finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604432364853">
@@ -758,11 +736,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605890970300">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605910792034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605890970300" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602429084336" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605910792034" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

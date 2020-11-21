@@ -50,7 +50,7 @@ public class SalaryDocument implements Generatable, Save {
                 .append("uuid: ").append(uuid).append(System.lineSeparator()).append(System.lineSeparator())
                 .append("Время операции: ").append(operationDate).append(".").append(System.lineSeparator()).append(System.lineSeparator())
                 .append("Список сотрудников:").append(System.lineSeparator());
-        for (Employee employee: employees) {
+        for (Employee employee : employees) {
             builder.append(employee).append(System.lineSeparator());
         }
         builder.append("Общая сумма: ").append(String.format("%.2f", total));
