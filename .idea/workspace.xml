@@ -32,14 +32,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 12-task 3 finished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/ggjg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/task1/Filter.java" afterDir="false" />
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 13-task 2 finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/task3/Func.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/task3/Functions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/task4/SalaryDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/task4/SalaryDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework10/task4/StringGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework10/task4/StringGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework11/task2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework11/task2/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework11/task4/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework11/task4/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task1/Multyplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task1/Multyplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task2/AgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task2/AgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task2/NameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task2/NameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task3/RandomInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task3/RandomInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task3/RandomString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task3/RandomString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework11/task4/ExcelReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework11/task4/ExcelReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework12/task3/DocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/DocumentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework12/task3/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework12/task3/ProjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task1/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task1/FilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task2/Modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task2/ModifierTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,17 +118,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="homework12.task1.helpers" />
-      <recent name="main.homework6.task4" />
-      <recent name="main.homework3.task3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AFT\src\main\homework6\task2\generators" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="homework12.task1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\test\java\homework12\task3" />
       <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\test\java\homework12\task2" />
@@ -130,33 +125,53 @@
       <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task2" />
       <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task1\files" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="homework12.task1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AFT\src\main\homework6\task2\generators" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework12.task1.helpers" />
+      <recent name="main.homework6.task4" />
+      <recent name="main.homework3.task3" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProjectTest">
-    <configuration name="DocumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ModifierTest">
+    <configuration name="FilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework12.task3.*" />
+          <option name="PATTERN" value="homework13.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework12.task3" />
-      <option name="MAIN_CLASS_NAME" value="homework12.task3.DocumentTest" />
+      <option name="PACKAGE_NAME" value="homework13.task1" />
+      <option name="MAIN_CLASS_NAME" value="homework13.task1.FilterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonDeserializationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Modifier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework12.task1.*" />
+          <option name="PATTERN" value="homework13.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework12.task1" />
-      <option name="MAIN_CLASS_NAME" value="homework12.task1.JsonDeserializationTest" />
+      <option name="PACKAGE_NAME" value="homework13.task2" />
+      <option name="MAIN_CLASS_NAME" value="homework13.task2.Modifier" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AFT" />
+      <option name="PACKAGE_NAME" value="homework13.task2" />
+      <option name="MAIN_CLASS_NAME" value="ModifierTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,28 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AFT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework12.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework12.task2" />
-      <option name="MAIN_CLASS_NAME" value="homework12.task2.XmlTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ModifierTest" />
+        <item itemvalue="JUnit.Modifier" />
+        <item itemvalue="JUnit.FilterTest" />
         <item itemvalue="JUnit.ProjectTest" />
         <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.DocumentTest" />
-        <item itemvalue="JUnit.XmlTest" />
-        <item itemvalue="JUnit.JsonDeserializationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,55 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00056" summary="homework 6 task 1 begin">
-      <created>1602270888428</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1602270888428</updated>
-    </task>
-    <task id="LOCAL-00057" summary="homework 6 task 1 begin">
-      <created>1602271001550</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1602271001550</updated>
-    </task>
-    <task id="LOCAL-00058" summary="homework 6 task 1 begin">
-      <created>1602271074358</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1602271074358</updated>
-    </task>
-    <task id="LOCAL-00059" summary="homework 6 task 1 finished">
-      <created>1602271695109</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1602271695109</updated>
-    </task>
-    <task id="LOCAL-00060" summary="homework 6 task 1 finished">
-      <created>1602327689714</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1602327689714</updated>
-    </task>
-    <task id="LOCAL-00061" summary="homework 6 task 1 finished">
-      <created>1602328914413</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1602328914413</updated>
-    </task>
-    <task id="LOCAL-00062" summary="homework 6 task 2 finished">
-      <created>1602329130641</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1602329130641</updated>
     </task>
     <task id="LOCAL-00063" summary="homework 6 task 2 finished">
       <created>1602333724576</created>
@@ -569,7 +520,56 @@
       <option name="project" value="LOCAL" />
       <updated>1605910785731</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="homework 12-task 3 finished">
+      <created>1605948522410</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1605948522411</updated>
+    </task>
+    <task id="LOCAL-00106" summary="homework 11-task 1 in middle">
+      <created>1605949356022</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1605949356022</updated>
+    </task>
+    <task id="LOCAL-00107" summary="homework 11-task 1 in middle">
+      <created>1605949434099</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1605949434099</updated>
+    </task>
+    <task id="LOCAL-00108" summary="homework 11-task 1 in middle">
+      <created>1605949663107</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1605949663108</updated>
+    </task>
+    <task id="LOCAL-00109" summary="homework 13-task 1 finished">
+      <created>1605950569948</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1605950569948</updated>
+    </task>
+    <task id="LOCAL-00110" summary="homework 13-task 1 finished">
+      <created>1605952126838</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1605952126838</updated>
+    </task>
+    <task id="LOCAL-00111" summary="homework 13-task 2 finished">
+      <created>1605953201193</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1605953201193</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -623,9 +623,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="homework 3 after 5 pravki" />
-    <MESSAGE value="homework 4" />
-    <MESSAGE value="homework 4 after 1" />
     <MESSAGE value="homework 4 after 2" />
     <MESSAGE value="homework 4 after task  3" />
     <MESSAGE value="homework 4 after task  4" />
@@ -648,7 +645,10 @@
     <MESSAGE value="homework 12-task 1 finished" />
     <MESSAGE value="homework 12-task 2 finished" />
     <MESSAGE value="homework 12-task 3 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 12-task 3 finished" />
+    <MESSAGE value="homework 11-task 1 in middle" />
+    <MESSAGE value="homework 13-task 1 finished" />
+    <MESSAGE value="homework 13-task 2 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 13-task 2 finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604432364853">
@@ -688,26 +688,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602338588434" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1605893732138">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1605953271389">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732138" />
     <state width="930" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1605893732137">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1605953271389">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1605893732137">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1605953271388">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1605893732137">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271388" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1605953271389">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605893732138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -736,12 +740,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605910792034">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605953628093">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605890970300" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602429084336" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605910792034" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953628093" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

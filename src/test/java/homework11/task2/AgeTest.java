@@ -6,20 +6,22 @@ import org.junit.jupiter.api.Test;
 public class AgeTest {
     @Test
     public void age1() {
-        int age=0;
+        int age = 0;
         Human human = new Human();
         human.setAge(age);
         int result = human.getAge();
-        Assertions.assertEquals(age,result);
+        Assertions.assertEquals(age, result);
     }
+
     @Test
     public void age2() {
-        int age=60;
-       Human human = new Human();
-       human.setAge(age);
-       int result = human.getAge();
-       Assertions.assertEquals(age,result);
+        int age = 60;
+        Human human = new Human();
+        human.setAge(age);
+        int result = human.getAge();
+        Assertions.assertEquals(age, result);
     }
+
     @Test
     public void age3() {
         int age = 120;
@@ -28,30 +30,32 @@ public class AgeTest {
         int result = human.getAge();
         Assertions.assertEquals(age, result);
     }
+
     @Test
     public void age4() {
-        int age=-1;
+        int age = -1;
         try {
             Human human = new Human();
             human.setAge(age);
             int result = human.getAge();
             Assertions.fail();
         } catch (IllegalArgumentException exception) {
-            String expected = "Некорректный возраст: "+age;
-            Assertions.assertEquals(expected,exception.getMessage());
+            String expected = "Некорректный возраст: " + age;
+            Assertions.assertEquals(expected, exception.getMessage());
         }
     }
+
     @Test
     public void age5() {
-        int age=121;
+        int age = 121;
         try {
             Human human = new Human();
             human.setAge(age);
             int result = human.getAge();
             Assertions.fail();
         } catch (IllegalArgumentException exception) {
-            String expected = "Некорректный возраст: "+age;
-            Assertions.assertEquals(expected,exception.getMessage());
+            String expected = "Некорректный возраст: " + age;
+            Assertions.assertEquals(expected, exception.getMessage());
         }
     }
 }
