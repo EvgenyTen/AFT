@@ -32,8 +32,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 13-task 3 in middle">
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 13-task 3 finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework13/task1/FilterHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework13/task1/FilterHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework13/task2/Modifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework13/task2/Modifiers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework13/task3/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework13/task3/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task3/MaxObjFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task3/MaxObjFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task3/ToStringFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task3/ToStringFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task3/ToSumFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task3/ToSumFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,15 +110,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\test\java\homework12\task3" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\test\java\homework12\task2" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task3" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task2" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task1\files" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="homework12.task1" />
     </key>
@@ -124,33 +124,40 @@
       <recent name="main.homework6.task4" />
       <recent name="main.homework3.task3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\REPOSJAVA\AFT\src\main\java\homework14" />
+      <recent name="E:\REPOSJAVA\AFT\src\test\java" />
+      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\test\java\homework12\task3" />
+      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\test\java\homework12\task2" />
+      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task3" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModifierTest">
-    <configuration name="FilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AllEqualsFunc">
+    <configuration name="AllEqualsFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework13.task1.*" />
+          <option name="PATTERN" value="homework13.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework13.task1" />
-      <option name="MAIN_CLASS_NAME" value="homework13.task1.FilterTest" />
+      <option name="PACKAGE_NAME" value="homework13.task3" />
+      <option name="MAIN_CLASS_NAME" value="homework13.task3.AllEqualsFunc" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Modifier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxObjFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework13.task2.*" />
+          <option name="PATTERN" value="homework13.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework13.task2" />
-      <option name="MAIN_CLASS_NAME" value="homework13.task2.Modifier" />
+      <option name="PACKAGE_NAME" value="homework13.task3" />
+      <option name="MAIN_CLASS_NAME" value="homework13.task3.MaxObjFunc" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,31 +172,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToStringFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework12.task3.*" />
+          <option name="PATTERN" value="homework13.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework12.task3" />
-      <option name="MAIN_CLASS_NAME" value="homework12.task3.PersonTest" />
+      <option name="PACKAGE_NAME" value="homework13.task3" />
+      <option name="MAIN_CLASS_NAME" value="homework13.task3.ToStringFunc" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToSumFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework12.task3.*" />
+          <option name="PATTERN" value="homework13.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework12.task3" />
-      <option name="MAIN_CLASS_NAME" value="homework12.task3.ProjectTest" />
+      <option name="PACKAGE_NAME" value="homework13.task3" />
+      <option name="MAIN_CLASS_NAME" value="homework13.task3.ToSumFunc" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllEqualsFunc" />
+        <item itemvalue="JUnit.MaxObjFunc" />
+        <item itemvalue="JUnit.ToSumFunc" />
+        <item itemvalue="JUnit.ToStringFunc" />
         <item itemvalue="JUnit.ModifierTest" />
-        <item itemvalue="JUnit.Modifier" />
-        <item itemvalue="JUnit.FilterTest" />
-        <item itemvalue="JUnit.ProjectTest" />
-        <item itemvalue="JUnit.PersonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,48 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00065" summary="homework 6 task 3 finished">
-      <created>1602335058807</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1602335058807</updated>
-    </task>
-    <task id="LOCAL-00066" summary="homework 6 task 3 finished">
-      <created>1602335910029</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1602335910029</updated>
-    </task>
-    <task id="LOCAL-00067" summary="homework 6 task 4 finished">
-      <created>1602339554288</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1602339554288</updated>
-    </task>
-    <task id="LOCAL-00068" summary="homework 6 task 4 finished">
-      <created>1602340818586</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1602340818586</updated>
-    </task>
-    <task id="LOCAL-00069" summary="homework 6 task 4 finished">
-      <created>1602351091595</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1602351091595</updated>
-    </task>
-    <task id="LOCAL-00070" summary="homework 6 task 4 finished">
-      <created>1602355565761</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1602355565761</updated>
     </task>
     <task id="LOCAL-00071" summary="homework 6 task 4 finished">
       <created>1602356173236</created>
@@ -557,7 +522,49 @@
       <option name="project" value="LOCAL" />
       <updated>1605955816354</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="homework 13-task 3 in middle2">
+      <created>1605973402779</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1605973402780</updated>
+    </task>
+    <task id="LOCAL-00115" summary="homework 13-task 3 in middle2">
+      <created>1605974093457</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1605974093457</updated>
+    </task>
+    <task id="LOCAL-00116" summary="homework 13-task 3 in middle2">
+      <created>1605974309290</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1605974309290</updated>
+    </task>
+    <task id="LOCAL-00117" summary="homework 13-task 3 in middle2">
+      <created>1605974524728</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1605974524728</updated>
+    </task>
+    <task id="LOCAL-00118" summary="homework 13-task 3 in middle2">
+      <created>1605975123313</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1605975123313</updated>
+    </task>
+    <task id="LOCAL-00119" summary="homework 13-task 3 finished">
+      <created>1605975285159</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1605975285159</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,8 +618,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="homework 4 after task  3" />
-    <MESSAGE value="homework 4 after task  4" />
     <MESSAGE value="homework 5 after task  2" />
     <MESSAGE value="homework 5 after task  3" />
     <MESSAGE value="homework 5 after task  4" />
@@ -636,7 +641,9 @@
     <MESSAGE value="homework 13-task 1 finished" />
     <MESSAGE value="homework 13-task 2 finished" />
     <MESSAGE value="homework 13-task 3 in middle" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 13-task 3 in middle" />
+    <MESSAGE value="homework 13-task 3 in middle2" />
+    <MESSAGE value="homework 13-task 3 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 13-task 3 finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604432364853">
@@ -676,29 +683,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602338588434" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1605953271389">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="707" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605974534715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605974534715" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605975330482">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732138" />
     <state width="930" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605975330482" />
     <state width="938" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1605953271389">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605975330482">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605975330482" />
     <state width="938" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1605953271388">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605975330481">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605975330481" />
     <state width="938" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271388" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1605953271389">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605975330482">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605975330482" />
     <state width="938" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605893732138">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -728,12 +743,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605955092922">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605975296132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605890970300" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602429084336" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605955092922" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605975296132" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953628093" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />

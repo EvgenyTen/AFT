@@ -9,9 +9,13 @@ import java.util.Arrays;
 public class MaxObjFunc {
     @Test
     @DisplayName("object-string")
-    void maxObjString() { Assertions.assertEquals("zvcv",Functions.maxObj.execute(Arrays.asList("abcd","zvcv","qwwj")));}
+    void maxObjString() {
+        Assertions.assertEquals("zvcv", Functions.maxObj.execute(Arrays.asList("abcd", "zvcv", "qwwj")));
+    }
 
     @Test
     @DisplayName("objct-doubles")
-    void maxObjDoubles() { Assertions.assertEquals(258.15,Functions.maxObj.execute(Arrays.asList("abcd","zvcv","qwwj")));}
+    void maxObjDoubles() {
+        Assertions.assertEquals(258.15, Functions.maxObj.execute(Arrays.asList("abcd", "zvcv", "qwwj")));
+    }
 }
