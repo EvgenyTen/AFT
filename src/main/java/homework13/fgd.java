@@ -1,4 +1,4 @@
 package homework13;
 
-public class ggjg {
+public class fgd {
 }
