@@ -32,14 +32,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 13-task 3 finished">
+    <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 14-starting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework13/task1/FilterHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework13/task1/FilterHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework13/task2/Modifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework13/task2/Modifiers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework13/task3/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework13/task3/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task3/MaxObjFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task3/MaxObjFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task3/ToStringFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task3/ToStringFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework13/task3/ToSumFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework13/task3/ToSumFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,14 +119,14 @@
       <recent name="main.homework3.task3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\REPOSJAVA\AFT\src\test\java\homework14" />
+      <recent name="E:\REPOSJAVA\AFT\src\main\java\homework14\model" />
+      <recent name="E:\REPOSJAVA\AFT\src\main\java\homework14\helpers" />
       <recent name="E:\REPOSJAVA\AFT\src\main\java\homework14" />
       <recent name="E:\REPOSJAVA\AFT\src\test\java" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\test\java\homework12\task3" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\test\java\homework12\task2" />
-      <recent name="C:\Users\Evgen\IdeaProjects\AFT\src\main\java\homework12\task3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllEqualsFunc">
+  <component name="RunManager" selected="JUnit.Task1">
     <configuration name="AllEqualsFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
@@ -163,10 +157,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
-      <option name="PACKAGE_NAME" value="homework13.task2" />
-      <option name="MAIN_CLASS_NAME" value="ModifierTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework14" />
+      <option name="MAIN_CLASS_NAME" value="homework14.Task1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1" />
         <item itemvalue="JUnit.AllEqualsFunc" />
         <item itemvalue="JUnit.MaxObjFunc" />
         <item itemvalue="JUnit.ToSumFunc" />
         <item itemvalue="JUnit.ToStringFunc" />
-        <item itemvalue="JUnit.ModifierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,41 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00071" summary="homework 6 task 4 finished">
-      <created>1602356173236</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1602356173236</updated>
-    </task>
-    <task id="LOCAL-00072" summary="homework 6 task 4 finished">
-      <created>1602429076717</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1602429076717</updated>
-    </task>
-    <task id="LOCAL-00073" summary="homework 11-task 0">
-      <created>1604847191345</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1604847191345</updated>
-    </task>
-    <task id="LOCAL-00074" summary="homework 11-task 0">
-      <created>1604847796859</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1604847796859</updated>
-    </task>
-    <task id="LOCAL-00075" summary="homework 11-task 0">
-      <created>1604848760786</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1604848760786</updated>
     </task>
     <task id="LOCAL-00076" summary="homework 11-task 0">
       <created>1604848822723</created>
@@ -564,7 +529,42 @@
       <option name="project" value="LOCAL" />
       <updated>1605975285159</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="homework 14-starting">
+      <created>1605987074910</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1605987074910</updated>
+    </task>
+    <task id="LOCAL-00121" summary="homework 14-starting">
+      <created>1605987218730</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1605987218730</updated>
+    </task>
+    <task id="LOCAL-00122" summary="homework 14-starting">
+      <created>1605988498994</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1605988498994</updated>
+    </task>
+    <task id="LOCAL-00123" summary="homework 14-starting">
+      <created>1605989141380</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1605989141380</updated>
+    </task>
+    <task id="LOCAL-00124" summary="homework 14-starting">
+      <created>1605989197416</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1605989197416</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -618,7 +618,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="homework 5 after task  2" />
     <MESSAGE value="homework 5 after task  3" />
     <MESSAGE value="homework 5 after task  4" />
     <MESSAGE value="homework 5 after task  5" />
@@ -643,7 +642,8 @@
     <MESSAGE value="homework 13-task 3 in middle" />
     <MESSAGE value="homework 13-task 3 in middle2" />
     <MESSAGE value="homework 13-task 3 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 13-task 3 finished" />
+    <MESSAGE value="homework 14-starting" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 14-starting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604432364853">
@@ -743,12 +743,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600606106516" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605975296132">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605989201011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605890970300" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602429084336" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605975296132" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605989201011" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953628093" />
     <state x="684" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1600605256534">
       <screen x="0" y="0" width="1920" height="1040" />
