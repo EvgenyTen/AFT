@@ -2,9 +2,24 @@ package homework14;
 
 import homework14.helpers.JsonHelper;
 import homework14.model.Person;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 public class Task1 {
-    List<Person> persons= JsonHelper.getPersonsFromFile("");
+    List<Person> persons= JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
+
+    @Test
+    @DisplayName("Task 1-Part1")
+    public void partOne(){
+        long count=persons.stream()
+                .filter(person->person.getPassport()==null)
+                .filter(person->person.getProperties().size()==3)
+                .peek(person->System.out.printf("%s %s %s%n",person.getLastName(),person.getFirstName(),person.getPatronymic()))
+                .count();
+        Assertions.assertEquals(3,count);
+    }
 }
+
