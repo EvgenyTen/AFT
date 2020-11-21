@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Objects;
 
-public class FuncAllEqualsTests {
+public class AllEqualsFunc {
 
     @Test
     @DisplayName("test function allEquals on Objects")
@@ -18,16 +18,16 @@ public class FuncAllEqualsTests {
         Object object3 = object1;
         Object object4 = object1;
         Object object5 = new Object();
-        Assertions.assertTrue(Functions.onlyEqualsObjects.execute(Arrays.asList(object1, object2, object3, object4)));
-        Assertions.assertTrue(Functions.onlyEqualsObjects.execute(Collections.emptyList()));
-        Assertions.assertFalse(Functions.onlyEqualsObjects.execute(Arrays.asList(object1, object2, object3, object4, object5)));
+        Assertions.assertTrue(Functions.onlyEquals.execute(Arrays.asList(object1, object2, object3, object4)));
+        Assertions.assertTrue(Functions.onlyEquals.execute(Collections.emptyList()));
+        Assertions.assertFalse(Functions.onlyEquals.execute(Arrays.asList(object1, object2, object3, object4, object5)));
     }
 
     @Test
     @DisplayName("test function allEquals on Strings")
     void testFuncAllEqualsStrings() {
-        Assertions.assertTrue(Functions.onlyEqualsObjects.execute(Arrays.asList("s1", "s1", "s1")));
-        Assertions.assertFalse(Functions.onlyEqualsObjects.execute(Arrays.asList("s1", "s2", "s1")));
+        Assertions.assertTrue(Functions.onlyEquals.execute(Arrays.asList("s1", "s1", "s1")));
+        Assertions.assertFalse(Functions.onlyEquals.execute(Arrays.asList("s1", "s2", "s1")));
     }
 
     @Test
@@ -62,8 +62,8 @@ public class FuncAllEqualsTests {
         Cat cat2 = new Cat("Барсик", 3);
         Cat cat3 = new Cat("Барсик", 3);
         Cat cat4 = new Cat("Мурзик", 2);
-        Assertions.assertTrue(Functions.onlyEqualsObjects.execute(Arrays.asList(cat1, cat2, cat3)));
-        Assertions.assertFalse(Functions.onlyEqualsObjects.execute(Arrays.asList(cat1, cat4, cat3)));
+        Assertions.assertTrue(Functions.onlyEquals.execute(Arrays.asList(cat1, cat2, cat3)));
+        Assertions.assertFalse(Functions.onlyEquals.execute(Arrays.asList(cat1, cat4, cat3)));
     }
 
 }
