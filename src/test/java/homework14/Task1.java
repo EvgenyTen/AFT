@@ -26,11 +26,11 @@ public class Task1 {
     @DisplayName("Task 1-Part2")
     public void partTwo(){
         long count=persons.stream()
-                .filter(person->person.getPassport()==null)
-                .filter(person->person.getProperties().size()==3)
+                .filter(person->person.getLastName().equals("Васильев"))
+                .filter(person->person.getCards().size()!=person.getAccounts().size())
                 .peek(person->System.out.printf("%s %s %s%n",person.getLastName(),person.getFirstName(),person.getPatronymic()))
                 .count();
-        Assertions.assertEquals(3,count);
+        Assertions.assertEquals(10,count);
     }
 
     @Test
