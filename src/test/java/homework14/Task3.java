@@ -33,18 +33,21 @@ public class Task3 {
                 .findFirst()
                .orElse(persons.get(0));
         System.out.printf("%s %s %s%n", result.getLastName(), result.getFirstName(), result.getPatronymic());
-
-
-
+        result.getAccounts().forEach(account->System.out.printf("%s  ",account.getAccountNumber()));
+        System.out.println();
+        result.getCards().forEach(card->System.out.printf("%s ",card.getCardNumber()));
     }
 
     @Test
     @DisplayName("Task 3-Part3")
     public void partThree() {
-        persons.stream()
+        boolean correсtness=persons.stream()
                 .filter(person -> person.getPassport() != null)
-                .filter(person -> person.getPassport().getSeries().startsWith("00"))
-                .limit(5)
-                .forEach(person -> System.out.printf("%s %s %s%n", person.getLastName(), person.getFirstName(), person.getPatronymic()));
+                .map(Person::getPassport)
+                .allMatch(passport -> passport.getSeries().matches("^[0-9]{4}$") && passport.getNumber().matches(("^[0-9]{6}$")))
+                String resultPrint=correсtness
+                        ?"У всех клиентов,у которых есть пасспорт,данные соответствуют формату"
+                        :"Есть клиенты,у которых данные не соответствуют";
+                System.out.println(resultPrint);
     }
 }
