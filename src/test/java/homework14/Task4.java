@@ -18,8 +18,8 @@ public class Task4 {
     List<Person> persons = JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
 
     @Test
-    @DisplayName("Task 4-Part1")
-    public void partOne() {
+    @DisplayName("Task 4-Part1-AllAccounts")
+    public void AllAccounts() {
         List<Person> filtredPersons=persons.stream()
                 .filter(person -> person.getPassport() == null)
                 .filter(person -> person.getAccounts().size() == 3)
