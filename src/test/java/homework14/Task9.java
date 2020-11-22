@@ -16,8 +16,8 @@ public class Task9 {
                 .filter(person -> !person.getAccounts().isEmpty())
                 .filter(person -> person.getAccounts().stream()
                         .map(Account::getAccountBalance)
-                        .reduce((bal1, bal2) -> bal1 + bal2)
-                        .get() > 20_000_000d)
+                        .reduce((balance1, balance2) -> balance1 + balance2)
+                        .get() > 20000000)
                 .count();
 
         long objectBalance = persons.stream()
@@ -25,11 +25,10 @@ public class Task9 {
                 .filter(person -> person.getProperties().stream()
                         .map(property -> property.getPrice())
                         .reduce((price1, price2) -> price1 + price2)
-                        .get() > 26_000_000d)
+                        .get() > 26000000)
                 .count();
         System.out.println(accountBalance);
         System.out.println(objectBalance);
-
         Assertions.assertEquals(accountBalance, objectBalance);
 
     }

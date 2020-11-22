@@ -1,16 +1,12 @@
 package homework14;
-
 import homework14.helpers.JsonHelper;
 import homework14.model.Person;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
 import java.util.NoSuchElementException;
-
 public class Task2 {
     List<Person> persons = JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
-
     @Test
     @DisplayName("Task 2-Part1")
     public void partOne() {

@@ -1,15 +1,11 @@
 package homework14;
-
 import homework14.helpers.JsonHelper;
 import homework14.model.Person;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
-
 public class Task3 {
     List<Person> persons = JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
-
     @Test
     @DisplayName("Task 3-Part1")
     public void partOne() {
@@ -20,7 +16,6 @@ public class Task3 {
                 .count();
         System.out.printf("Количество различных серий паспортов: %s%n", count);
     }
-
     @Test
     @DisplayName("Task 3-Part2")
     public void partTwo() {
@@ -37,7 +32,6 @@ public class Task3 {
         System.out.println();
         result.getCards().forEach(card->System.out.printf("%s ",card.getCardNumber()));
     }
-
     @Test
     @DisplayName("Task 3-Part3")
     public void partThree() {

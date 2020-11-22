@@ -16,7 +16,6 @@ import java.util.stream.Collectors;
 
 public class Task4 {
     List<Person> persons = JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
-
     @Test
     @DisplayName("Task 4-Part1-AllAccounts")
     public void AllAccounts() {
@@ -35,7 +34,6 @@ public class Task4 {
     }
     @Test
     @DisplayName("Task 4-Part2")
-
     public void actions(){
         List<Object> object=null;
         List<Object> object1=new ArrayList<>();

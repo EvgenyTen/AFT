@@ -1,14 +1,11 @@
 package homework14;
-
 import homework14.helpers.JsonHelper;
 import homework14.model.Person;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.util.Collection;
 import java.util.List;
-
 public class Task6 {
     List<Person> persons = JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
     @Test

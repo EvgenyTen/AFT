@@ -31,7 +31,6 @@ public class Task8 {
                 .filter(card -> card.getType().equalsIgnoreCase("VISA"))
                 .count();
     }
-
     @Test
     @DisplayName("Task 8-Part3-all valid master")
     void allMasterCards(){
@@ -41,7 +40,6 @@ public class Task8 {
                 .filter(card -> card.getType().equalsIgnoreCase("MasterCard"))
                 .count();
     }
-
     @Test
     @DisplayName("Task 8-Part4-all valid peace")
     void allPeaceCards(){
@@ -77,7 +75,6 @@ public class Task8 {
         System.out.println(allVisa);
         System.out.println(allMaster);
         System.out.println(allPeace);
-
         Assertions.assertEquals(countAll,allMaster+allPeace+allVisa);
     }
 

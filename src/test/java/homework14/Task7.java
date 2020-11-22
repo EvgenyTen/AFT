@@ -1,13 +1,10 @@
 package homework14;
-
 import homework14.helpers.JsonHelper;
 import homework14.model.Person;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
-
 public class Task7 {
     List<Person> persons = JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
     @Test
@@ -63,7 +60,6 @@ public class Task7 {
         System.out.println(countCheckingAccounts);
         System.out.println(countDeposits);
         System.out.println(countCurrents);
-
         Assertions.assertEquals(countAll,countCheckingAccounts+countCurrents+countDeposits);
     }
 
