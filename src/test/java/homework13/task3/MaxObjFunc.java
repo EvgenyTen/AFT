@@ -16,6 +16,6 @@ public class MaxObjFunc {
     @Test
     @DisplayName("objct-doubles")
     void maxObjDoubles() {
-        Assertions.assertEquals(258.15, Functions.maxObj.execute(Arrays.asList("abcd", "zvcv", "qwwj")));
+        Assertions.assertEquals(258.15, Functions.maxObj.execute(Arrays.asList(11.78, 258.15, 192.34, -246.11)));
     }
 }
