@@ -44,7 +44,7 @@ public class Task3 {
         boolean correсtness=persons.stream()
                 .filter(person -> person.getPassport() != null)
                 .map(Person::getPassport)
-                .allMatch(passport -> passport.getSeries().matches("^[0-9]{4}$") && passport.getNumber().matches(("^[0-9]{6}$")))
+                .allMatch(passport -> passport.getSeries().matches("^[0-9]{4}$") && passport.getNumber().matches(("^[0-9]{6}$")));
                 String resultPrint=correсtness
                         ?"У всех клиентов,у которых есть пасспорт,данные соответствуют формату"
                         :"Есть клиенты,у которых данные не соответствуют";
