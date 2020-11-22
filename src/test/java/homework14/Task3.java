@@ -2,7 +2,6 @@ package homework14;
 
 import homework14.helpers.JsonHelper;
 import homework14.model.Person;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -15,22 +14,28 @@ public class Task3 {
     @DisplayName("Task 3-Part1")
     public void partOne() {
         long count = persons.stream()
-                .filter(person -> person.getPassport() == null)
-                .filter(person -> person.getProperties().size() == 3)
-                .peek(person -> System.out.printf("%s %s %s%n", person.getLastName(), person.getFirstName(), person.getPatronymic()))
+                .filter(person -> person.getPassport() != null)
+                .map(person -> person.getPassport().getSeries())
+                .distinct()
                 .count();
-        Assertions.assertEquals(3, count);
+        System.out.printf("Количество различных серий паспортов: %s%n", count);
     }
 
     @Test
     @DisplayName("Task 3-Part2")
     public void partTwo() {
-        long count = persons.stream()
-                .filter(person -> person.getLastName().equals("Васильев"))
-                .filter(person -> person.getCards().size() != person.getAccounts().size())
-                .peek(person -> System.out.printf("%s %s %s%n", person.getLastName(), person.getFirstName(), person.getPatronymic()))
-                .count();
-        Assertions.assertEquals(10, count);
+       Person result = persons.stream()
+                .filter(person -> person.getPassport() != null)
+                .skip(49)
+                .limit(50)
+                .filter(person -> person.getCards().size()==2)
+                .filter(person -> person.getAccounts().size()==3)
+                .findFirst()
+               .orElse(persons.get(0));
+        System.out.printf("%s %s %s%n", result.getLastName(), result.getFirstName(), result.getPatronymic());
+
+
+
     }
 
     @Test

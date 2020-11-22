@@ -34,7 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fa28638-1dfb-4c7f-9fcf-509f3c598fb9" name="Default Changelist" comment="homework 14-Test 1 finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework14/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework14/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework14/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework14/Task3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,7 @@
       <recent name="E:\REPOSJAVA\AFT\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task2">
+  <component name="RunManager" selected="JUnit.Task3">
     <configuration name="AllEqualsFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
@@ -188,16 +188,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToSumFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AFT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework13.task3.*" />
+          <option name="PATTERN" value="homework14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework13.task3" />
-      <option name="MAIN_CLASS_NAME" value="homework13.task3.ToSumFunc" />
+      <option name="PACKAGE_NAME" value="homework14" />
+      <option name="MAIN_CLASS_NAME" value="homework14.Task3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task3" />
         <item itemvalue="JUnit.Task2" />
         <item itemvalue="JUnit.Task1" />
         <item itemvalue="JUnit.AllEqualsFunc" />
         <item itemvalue="JUnit.MaxObjFunc" />
-        <item itemvalue="JUnit.ToSumFunc" />
       </list>
     </recent_temporary>
   </component>
@@ -221,20 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600458071231</updated>
-    </task>
-    <task id="LOCAL-00081" summary="homework 11-after task 2">
-      <created>1604864464160</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1604864464160</updated>
-    </task>
-    <task id="LOCAL-00082" summary="homework 11-after task 2">
-      <created>1604865122189</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1604865122189</updated>
     </task>
     <task id="LOCAL-00083" summary="homework 11-after task 3">
       <created>1604866333648</created>
@@ -565,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605992282780</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="homework 14-Test 1 finished">
+      <created>1606043085996</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1606043085996</updated>
+    </task>
+    <task id="LOCAL-00131" summary="homework 14-Test 1 finished">
+      <created>1606043171149</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1606043171149</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -688,33 +688,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605974534715" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606042546360">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606043976193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732138" />
     <state width="930" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606042546360" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606043976193" />
     <state width="938" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606042546360">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606043976193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606042546360" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606043976193" />
     <state width="938" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606042546360">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606043976193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606042546360" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606043976193" />
     <state width="938" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271388" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606042546360">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606043976193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605893732137" />
     <state width="930" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602429091456" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606042546360" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606043976193" />
     <state width="938" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605953271389" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605893732138">
       <screen x="0" y="0" width="1920" height="1040" />
