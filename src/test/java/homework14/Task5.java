@@ -3,34 +3,22 @@ package homework14;
 import homework14.helpers.JsonHelper;
 import homework14.model.Account;
 import homework14.model.Person;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-public class Task9 {
+public class Task5 {
     List<Person> persons = JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
+
     @Test
-    public void countCards() {
+    public void balance() {
         long accountBalance = persons.stream()
                 .filter(person -> !person.getAccounts().isEmpty())
                 .filter(person -> person.getAccounts().stream()
                         .map(Account::getAccountBalance)
                         .reduce((bal1, bal2) -> bal1 + bal2)
-                        .get() > 20_000_000d)
-                .count();
-
-        long objectBalance = persons.stream()
-                .filter(person -> !person.getProperties().isEmpty())
-                .filter(person -> person.getProperties().stream()
-                        .map(property -> property.getPrice())
-                        .reduce((price1, price2) -> price1 + price2)
-                        .get() > 26_000_000d)
+                        .get() < 2100000)
                 .count();
         System.out.println(accountBalance);
-        System.out.println(objectBalance);
-
-        Assertions.assertEquals(accountBalance, objectBalance);
-
     }
 }
