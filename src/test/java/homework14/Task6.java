@@ -43,7 +43,7 @@ public class Task6 {
         Assertions.assertEquals(477,count);
     }
     @Test
-    @DisplayName("Task 6-Part4")
+    @DisplayName("Task 6-Part4-Checking")
     void checkObjects(){
         long countTotal=persons.stream()
                 .flatMap(person->person.getProperties().stream())
