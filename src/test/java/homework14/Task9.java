@@ -10,6 +10,7 @@ import java.util.List;
 
 public class Task9 {
     List<Person> persons = JsonHelper.getPersonsFromFile("src/test/java/homework14/dataset.json");
+
     @Test
     public void countCards() {
         long accountBalance = persons.stream()
