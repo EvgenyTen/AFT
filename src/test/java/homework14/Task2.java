@@ -17,7 +17,7 @@ public class Task2 {
         persons.stream()
                 .filter(person -> person.getPassport() != null)
                 .filter(person -> person.getPassport().getSeries().startsWith("00"))
-                .sorted((p1, p2) -> p2.getPassport().getNumber().compareTo(p1.getPassport().getNumber()))
+                .sorted((pass1, pass2) -> pass2.getPassport().getNumber().compareTo(pass1.getPassport().getNumber()))
                 .forEach(person -> System.out.printf("%s %s %s %s %s%n", person.getLastName(), person.getFirstName(), person.getPatronymic(), person.getPassport().getSeries(), person.getPassport().getNumber()));
     }
 
